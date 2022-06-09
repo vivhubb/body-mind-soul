@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Joan&display=swap');
+
+body {
+    font-family: Joan, serif;
+    font-weight: 400;
+    color: #2f4553;
+}
+
+/* header */
+
+a {
+    text-decoration: none;
+    color: #2f4553;
+    clear: both;
+}
+
+#title1 {
+    position: absolute;
+    margin-left: 20px;
+}
+
+#title2 {
+    float: right;
+    margin-right: 20px;
+}
+
+.menu-bar {
+    list-style-type: none;
+    text-align: center;
+}
