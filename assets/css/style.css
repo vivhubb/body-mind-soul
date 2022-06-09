@@ -11,22 +11,35 @@ body {
 a {
     text-decoration: none;
     color: #2f4553;
-    clear: both;
+}
+
+h1 {
+    height: 50px;
+    margin: 5px auto;
+}
+
+div {
+    position: relative;
+    
 }
 
 #title1, #title2 {
     border: 4px solid #656255;
-    padding: 5px 20px;
+    height: 50px;
 }
 
 #title1 {
     position: absolute;
     margin-left: 20px;
+    width: 500px;
+    text-align: center;
 }
 
 #title2 {
     float: right;
     margin-right: 20px;
+    width: 550px;
+    text-align: center;
 }
 
 li {
@@ -37,6 +50,7 @@ li {
 #menu-bar {
     text-align: center;
     position: relative;
+    top: 50px;
     clear: both;
     word-spacing: 2px;
 }
