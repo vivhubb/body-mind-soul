@@ -45,9 +45,15 @@ div {
 li {
     list-style-type: none;
     display: inline;
+    text-transform: uppercase;
+    margin-right: 25px;
 }
 
-#menu-bar {
+li:hover {
+    border: 2px solid #656255;
+}
+
+#nav-bar {
     text-align: center;
     position: relative;
     top: 50px;
