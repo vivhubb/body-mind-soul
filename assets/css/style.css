@@ -27,7 +27,7 @@ h1 {
 
 #title1,
 #title2 {
-    border: 3px solid #656255;
+    border: 2.5px solid #656255;
     height: 50px;
     text-align: center;
     border-radius: 5px 5px;
@@ -45,12 +45,9 @@ h1 {
     width: 550px;
 }
 
-.titles:hover {
-    background-color: #656255;
-}
-
 h1:hover {
-    color: #f9f9f8;
+    color: #2f4553;
+    font-weight: lighter;
 }
 
 /* navigation bar */
@@ -109,4 +106,42 @@ img {
     bottom: 35px;
     right: 120px;
     height: 90px;
+}
+
+/* information section */
+
+#information {
+    margin: auto;
+}
+
+.info {
+    width: 19vw;
+    height: 400px;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: larger;
+    text-align: center;
+}
+
+.info h3 {
+    margin: 10px 20px 25px 20px;
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+    text-decoration-thickness: 7px;
+}
+
+#space {
+    height: 20px;
+}
+
+.info p {
+    line-height: 30px;
+}
+
+.join li {
+    text-transform: lowercase;
+}
+
+.join {
+    margin: 9px;
 }
