@@ -75,6 +75,7 @@ li:hover {
 
 #hero-cover {
     position: relative;
+    margin-bottom: 20px;
 }
 
 img {
@@ -112,15 +113,21 @@ img {
 
 #information {
     margin: auto;
+    margin-top: 30px ;
 }
 
 .info {
     width: 19vw;
-    height: 400px;
+    height: 340px;
     display: inline-block;
     vertical-align: middle;
     font-size: larger;
     text-align: center;
+    border-right: 2px solid #656255 ;
+}
+
+#no-border {
+    border-right: none;
 }
 
 .info h3 {
@@ -130,12 +137,9 @@ img {
     text-decoration-thickness: 7px;
 }
 
-#space {
-    height: 20px;
-}
-
 .info p {
     line-height: 30px;
+    margin-top: 40px;
 }
 
 .join li {
@@ -144,4 +148,45 @@ img {
 
 .join {
     margin: 9px;
+}
+
+/* ancient mystery section */
+
+#mystery {
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border: 2px solid #656255;
+    border-radius: 25px 25px;
+    width: 1200px;
+    height: 450px;
+}
+
+#story {
+    height: 300px;
+    line-height: 40px;
+    font-size: 18px ;
+    text-align: center;
+    margin-top: 30px;
+    border: 2px solid #656255;
+    border-radius: 25px 25px;
+    overflow-y: scroll;
+    overflow: auto;
+    margin: auto;
+    padding: 10px 30px;
+    width: 80%;
+}
+
+#booklink {
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+    font-weight: bold;
+}
+
+#booklink:hover {
+    border: 2px solid #656255;
+    padding: 0 15px;
+    text-decoration-line: none;
+    font-size: 110%;
 }
