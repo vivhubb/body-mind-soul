@@ -4,9 +4,16 @@ body {
     font-family: Joan, serif;
     font-weight: 400;
     color: #2f4553;
+    background-color: #f9f9f8;
 }
 
 /* header */
+
+header {
+    height: 14vh;
+    width: 100%;
+    position: relative;
+}
 
 a {
     text-decoration: none;
@@ -18,28 +25,32 @@ h1 {
     margin: 5px auto;
 }
 
-div {
-    position: relative;
-    
-}
-
 #title1, #title2 {
     border: 4px solid #656255;
     height: 50px;
+    text-align: center;
 }
 
 #title1 {
     position: absolute;
     margin-left: 20px;
     width: 500px;
-    text-align: center;
 }
 
 #title2 {
     float: right;
     margin-right: 20px;
     width: 550px;
+}
+
+/* navigation bar */
+
+#nav-bar {
     text-align: center;
+    position: relative;
+    top: 40px;
+    clear: both;
+    word-spacing: 2px;
 }
 
 li {
@@ -53,10 +64,38 @@ li:hover {
     border: 2px solid #656255;
 }
 
-#nav-bar {
-    text-align: center;
+/* hero image */
+
+#hero-cover {
     position: relative;
-    top: 50px;
-    clear: both;
-    word-spacing: 2px;
+}
+
+img {
+    height: 650px;
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+    z-index: -1;
+    border-radius: 25px 25px;
+}
+
+.cover-text {
+    position: absolute;
+    font-size: 110%;
+}
+
+.cover-text h2 {
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#cover-text1 {
+    top: 5px;
+    left: 50px;
+}
+
+#cover-text2 {
+    bottom: 5px;
+    right: 120px;
 }
