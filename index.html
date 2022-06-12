@@ -17,18 +17,20 @@
             </a>
         </div>
         <div id="title2" class="titles">
-            <a href="#">
+            <a href="#mystery">
                 <h1>EXPLORE THE ANCIENT MYSTERY</h1>
             </a>
         </div>
-        <nav id="nav-bar">
-            <ul>
-                <li><a href="index.html"><strong>Home</strong></a></li>
-                <li><a href="#"><strong>Ancient Mystery</strong></a></li>
-                <li><a href="#"><strong>Sign Up!</strong></a></li>
-                <li><a href="athome.html"><strong>Exercise at home</strong></a></li>
-            </ul>
-        </nav>
+        <div id="nav-div">
+            <nav id="nav-bar">
+                <ul>
+                    <li><a href="index.html"><strong>Home</strong></a></li>
+                    <li><a href="#mystery"><strong>Ancient Mystery</strong></a></li>
+                    <li><a href="#"><strong>Sign Up!</strong></a></li>
+                    <li><a href="athome.html"><strong>Exercise at home</strong></a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <section id="hero-cover">
         <div id="cover-text1" class="cover-text">
@@ -92,8 +94,8 @@
                 are now available to us all in <br><a
                     href="http://www.lib.ru/URIKOVA/KELDER/Ancient_Secret_of_the_Fountain_of_Youth-Peter_Kelder.pdf"
                     target="_blank" id="booklink">Ancient
-                        Secret of the Fountain of Youth by Peter
-                        Kelder.
+                    Secret of the Fountain of Youth by Peter
+                    Kelder.
                 </a> <br> <br>
                 Beginning with an account of his own introduction to the rites by way of Colonel Bradford, a mysterious
                 retired British army officer who learned of the rites while journeying high up in the Himalayas, Kelder
@@ -104,6 +106,47 @@
                 hair growth, pain relief, better digestion, and just feeling much more youthful!
             </p>
         </div>
+    </section>
+
+    <section>
+        <form action="signup-data.html" method="post">
+            <legend>Sign Up!</legend>
+
+
+            <label for="fname">Name:</label>
+            <input type="text" id="fname" name="fname" placeholder="First Name" required>
+            <input type="text" id="lname" name="lname" placeholder="Last Name" required>
+
+            <label for="email">Email address:</label>
+            <input type="email" id="email" name="email" placeholder="Your email address" required>
+
+            <label for="pnumber">Phone Number:</label>
+            <input type="tel" id="pnumber" name="pnumber" required>
+
+            <label for="bdate">Date of Birth:</label>
+            <input type="date" id="bdate" name="bdate" min="1922-06-30" required>
+
+            <label for="attendace">Please confirm your attendance period by choosing ONE of the below options (your
+                choice can be
+                amended later on, up to 4 weeks before the trip):</label>
+
+            <input type="radio" id="join2" name="join2" value="join2">
+            <label for="join2">joining for the first two weeks</label>
+
+            <input type="radio" id="join3" name="join3" value="join3">
+            <label for="join3">joining for the first three weeks</label>
+
+            <input type="radio" id="join4" name="join4" value="join4">
+            <label for="join4">joining for all four weeks</label>
+
+            <p>** After submitting this form, an email will be sent to you with all the details needed regarding the
+                trip, including further steps to be taken as well as all the required additional information for taking
+                part in the event</p>
+
+            <input type="submit" value="Sign Up!">
+            <input type="reset" value="Start over">
+
+        </form>
     </section>
 </body>
 

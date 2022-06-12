@@ -4,7 +4,7 @@ body {
     font-family: Joan, serif;
     font-weight: 400;
     color: #2f4553;
-    background-color: #f9f9f8;
+    background-color: #dcdcdc;
 }
 
 /* header */
@@ -53,14 +53,19 @@ h1:hover {
 /* navigation bar */
 
 #nav-bar {
-    text-align: center;
-    position: relative;
-    top: 40px;
-    clear: both;
     word-spacing: 2px;
+    height: 5vh;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
 }
 
-li {
+#nav-bar ul {
+    margin: 10px auto;
+    text-align: center;
+}
+
+#nav-bar li {
     list-style-type: none;
     display: inline;
     text-transform: uppercase;
@@ -69,6 +74,8 @@ li {
 
 li:hover {
     border: 2px solid #656255;
+    font-size: 110%;
+    padding: 0 20px 0 20px;
 }
 
 /* hero image and cover text */
@@ -113,7 +120,7 @@ img {
 
 #information {
     margin: auto;
-    margin-top: 30px ;
+    margin-top: 30px;
 }
 
 .info {
@@ -123,7 +130,7 @@ img {
     vertical-align: middle;
     font-size: larger;
     text-align: center;
-    border-right: 2px solid #656255 ;
+    border-right: 2px solid #656255;
 }
 
 #no-border {
@@ -166,7 +173,7 @@ img {
 #story {
     height: 300px;
     line-height: 40px;
-    font-size: 18px ;
+    font-size: 18px;
     text-align: center;
     margin-top: 30px;
     border: 2px solid #656255;
@@ -190,3 +197,5 @@ img {
     text-decoration-line: none;
     font-size: 110%;
 }
+
+/* sign up section */
