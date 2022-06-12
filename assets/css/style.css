@@ -86,7 +86,7 @@ li:hover {
 }
 
 img {
-    height: 700px;
+    height: 80vh;
     width: 100%;
     object-fit: cover;
     position: relative;
@@ -199,3 +199,51 @@ img {
 }
 
 /* sign up section */
+
+#form {
+    width: 40vw;
+    height: auto;
+    border: 2px solid #656255;
+    border-radius: 25px 25px;
+    margin:25px auto;
+    padding: 10px;
+    text-align: center;
+}
+
+#form div {
+    margin: 10px 0;
+    padding: 0;
+    word-spacing: 2px;
+}
+
+.options {
+    margin: 15px auto 0;
+}
+
+.smaller {
+    font-size: 14px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+form p {
+    font-size: x-small;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+#submit, #reset {
+    font-weight: bolder;
+    color: #2f4553;
+    padding: 5px 15px;
+    margin: 5px 15px;
+    height: 40px;
+    border: 2px solid #656255;
+    border-radius: 25px 25px;
+}
+
+.buttons:hover {
+    font-size: 110%;
+}
