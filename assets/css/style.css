@@ -9,8 +9,7 @@ body {
 
 /* header */
 
-header {
-    height: 14vh;
+.header {
     width: 100%;
     position: relative;
 }
@@ -21,28 +20,18 @@ a {
 }
 
 h1 {
-    height: 50px;
-    margin: 5px auto;
+    margin: 0.25rem auto;
 }
 
-#title1,
-#title2 {
-    border: 2.5px solid #656255;
-    height: 50px;
-    text-align: center;
+.title {
+    border: 2.5px solid #656255;    
     border-radius: 5px 5px;
-}
-
-#title1 {
+    text-align: center;
+    height: 3em;
+    width: 35em;
     position: absolute;
-    margin-left: 20px;
-    width: 500px;
-}
-
-#title2 {
-    float: right;
-    margin-right: 20px;
-    width: 550px;
+    top: 1.5em;
+    margin-top: 1em;
 }
 
 h1:hover {
@@ -52,33 +41,52 @@ h1:hover {
 
 /* navigation bar */
 
-#nav-bar {
-    word-spacing: 2px;
-    height: 5vh;
-    width: 100%;
-    overflow: hidden;
-    position: relative;
+.nav-div {
+    position: fixed;
+    right: 0;
+    top: 1em;
 }
 
-#nav-bar ul {
-    margin: 10px auto;
-    text-align: center;
+.nav-bar {
+    word-spacing: 0.2rem;
 }
 
-#nav-bar li {
+.nav-ul {
+    text-align: right;
+    padding: 0;
+    margin: 0;
+}
+
+.links {
+    text-decoration: none;
+    text-transform: uppercase;
     list-style-type: none;
     display: inline;
-    text-transform: uppercase;
-    margin-right: 25px;
+    padding-right: 1.5em;
 }
 
-li:hover {
+
+.links:hover {
     border: 2px solid #656255;
     font-size: 110%;
     padding: 0 20px 0 20px;
 }
 
-/* hero image and cover text */
+/* media queries */
+
+/* small size 600 and down*/
+
+@media screen and (max-width: 600px) {
+    .title {
+        font-size: 75%;
+    }
+
+    .links a {
+        font-size: 60%;
+    }
+}
+
+/* hero image and cover text 
 
 #hero-cover {
     position: relative;
@@ -112,11 +120,11 @@ img {
 
 #cover-text2 {
     bottom: 35px;
-    right: 90px;
+    right: 130px;
     height: 90px;
 }
 
-/* information section */
+/* information section 
 
 #information {
     margin: auto;
@@ -157,7 +165,7 @@ img {
     margin: 9px;
 }
 
-/* ancient mystery section */
+/* ancient mystery section 
 
 #mystery {
     margin-top: 40px;
@@ -197,7 +205,7 @@ img {
     font-size: 110%;
 }
 
-/* sign up section */
+/* sign up section 
 
 #form {
     width: 40vw;
@@ -247,7 +255,7 @@ form p {
     font-size: 110%;
 }
 
-/* footer */
+/* footer 
 
 #footer {
     width: 100%;
@@ -256,12 +264,14 @@ form p {
     overflow: hidden;
     display: inline-block;
     position: relative;
+    text-align: center;
 }
 
 #contact {
     line-height: 8px;
-    margin-top: 10px;
-    margin-left: 15px;
+    margin: 15px;
+    width: 300px;
+    text-align: center;
 }
 
 #contact h4 {
@@ -272,4 +282,4 @@ form p {
     position: absolute;
     top: 35px;
     right: 15px;
-}
+} */
