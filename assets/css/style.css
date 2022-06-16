@@ -17,6 +17,7 @@ body {
 a {
     text-decoration: none;
     color: #2f4553;
+    max-width: 50vw;
 }
 
 h1 {
@@ -27,10 +28,10 @@ h1 {
     border: 2.5px solid #656255;    
     border-radius: 5px 5px;
     text-align: center;
-    height: 3em;
-    width: 35em;
-    position: absolute;
-    top: 1.5em;
+    min-height: 3em;
+    width: min(500px, 50vw);
+    position: relative;
+    top: 0.25em;
     margin-top: 1em;
 }
 
@@ -45,6 +46,7 @@ h1:hover {
     position: fixed;
     right: 0;
     top: 1em;
+    width: 100%;
 }
 
 .nav-bar {
@@ -61,8 +63,11 @@ h1:hover {
     text-decoration: none;
     text-transform: uppercase;
     list-style-type: none;
-    display: inline;
+    display: inline-block;
     padding-right: 1.5em;
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+    text-underline-offset: 0.2em;
 }
 
 
@@ -70,58 +75,116 @@ h1:hover {
     border: 2px solid #656255;
     font-size: 110%;
     padding: 0 20px 0 20px;
+    text-decoration-line: none;
 }
 
-/* media queries */
+/* hero image and cover text */
 
-/* small size 600 and down*/
-
-@media screen and (max-width: 600px) {
-    .title {
-        font-size: 75%;
-    }
-
-    .links a {
-        font-size: 60%;
-    }
-}
-
-/* hero image and cover text 
-
-#hero-cover {
-    position: relative;
-    margin-bottom: 20px;
-}
-
-img {
-    height: 75vh;
-    width: 100%;
-    object-fit: cover;
-    position: relative;
+.hero-section {
+    position: absolute;
+    top: 0;
+    left: 0;
     z-index: -1;
-    border-radius: 25px 25px;
+}
+
+.hero {
+    width: 52vw;
+    height: 90vh;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.cover-text-section {
+    display: block;
+    float: right;
+    max-width: 40vw;
+    position: relative;
+    right: 3em;
+    top: 5em;
 }
 
 .cover-text {
-    position: absolute;
-    font-size: 110%;
+    text-align: center;
+    border: 4px dotted rgb(35, 82, 66);
+    border-radius: 50%;
+    margin-bottom: 5em;
+    padding: 2em 4em;
 }
 
 .cover-text h2 {
-    font-weight: bolder;
-    text-transform: uppercase;
-    text-align: center;
+    line-height: 2em;
 }
 
-#cover-text1 {
-    top: 5px;
-    left: 50px;
+/***************************
+****** media queries *******
+***************************/
+
+@media screen and (max-width: 1150px) {
+    .title {
+        top: 2em;
+        max-width: 50vw;
+    }
+
+    .cover-text {
+        font-size: 95%;
+    }
+
+    .cover-text-section {
+        right: 1.5em;
+    }
 }
 
-#cover-text2 {
-    bottom: 35px;
-    right: 130px;
-    height: 90px;
+@media screen and (max-width: 910px) {
+    .links,
+    .cover-text {
+        font-size: 75%;
+    }
+
+    .cover-text-section {
+        top: 2em;
+    }
+
+    .cover-text {
+        margin-bottom: 3em;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .title {
+        top: 4em;
+    }
+
+    .title,
+    .links,
+    .cover-text {
+        font-size: 60%;
+    }
+
+    .hero {
+        max-height: 50vh;
+    }
+
+    .cover-text-section {
+        right: 0.25em;
+        top: 3em;
+    }
+    
+    .cover-text {
+        padding: 1em 2em;
+        margin-bottom: 2em;
+    }
+
+    .cover-text h2 {
+        line-height: 1.2em;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .cover-text h2 {
+        line-height: 1em;
+        font-size: 1.25em;
+    }
 }
 
 /* information section 
@@ -204,6 +267,7 @@ img {
     text-decoration-line: none;
     font-size: 110%;
 }
+*/
 
 /* sign up section 
 
@@ -254,6 +318,7 @@ form p {
 .buttons:hover {
     font-size: 110%;
 }
+*/
 
 /* footer 
 
