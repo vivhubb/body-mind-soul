@@ -30,7 +30,7 @@ h1 {
     text-align: center;
     min-height: 3em;
     width: min(500px, 50vw);
-    position: relative;
+    position: absolute;
     top: 0.25em;
     margin-top: 1em;
 }
@@ -81,7 +81,7 @@ h1:hover {
 /* hero image and cover text */
 
 .hero-section {
-    position: absolute;
+    position: relative;
     top: 0;
     left: 0;
     z-index: -1;
@@ -92,14 +92,13 @@ h1:hover {
     height: 90vh;
     object-fit: cover;
     background-repeat: no-repeat;
-    overflow: hidden;
 }
 
 .cover-text-section {
     display: block;
     float: right;
     max-width: 40vw;
-    position: relative;
+    position: absolute;
     right: 3em;
     top: 5em;
 }
@@ -114,6 +113,49 @@ h1:hover {
 
 .cover-text h2 {
     line-height: 2em;
+}
+
+/* information section */
+
+.information-section {
+    margin-top: 2em;
+    width: 100%;
+    text-align: center;
+}
+
+.info {
+    width: 20em;
+    height: 20em;
+    display: inline-block;
+    vertical-align: text-top;
+    text-align: center;
+    margin-right: 1.5em;
+    margin-bottom: 1.5em;
+    padding: 0.5em;
+    border: 2px solid #656255
+}
+
+.info h3 {
+    margin: 10px 20px 25px 20px;
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+    text-decoration-thickness: 7px;
+    text-underline-offset: 0.5em;
+}
+
+.info p {
+    line-height: 2em;
+    margin-top: 4em;
+}
+
+.join {
+    padding-left: 5em;
+}
+
+.join li {
+    text-transform: lowercase;
+    list-style-type: square;
+    width: fit-content;
 }
 
 /***************************
@@ -142,7 +184,7 @@ h1:hover {
     }
 
     .cover-text-section {
-        top: 2em;
+        top: 4em;
     }
 
     .cover-text {
@@ -167,7 +209,7 @@ h1:hover {
 
     .cover-text-section {
         right: 0.25em;
-        top: 3em;
+        top: 5em;
     }
     
     .cover-text {
@@ -185,47 +227,6 @@ h1:hover {
         line-height: 1em;
         font-size: 1.25em;
     }
-}
-
-/* information section 
-
-#information {
-    margin: auto;
-    margin-top: 30px;
-}
-
-.info {
-    width: 19vw;
-    height: 340px;
-    display: inline-block;
-    vertical-align: middle;
-    font-size: larger;
-    text-align: center;
-    border-right: 2px solid #656255;
-}
-
-#no-border {
-    border-right: none;
-}
-
-.info h3 {
-    margin: 10px 20px 25px 20px;
-    text-decoration-line: underline;
-    text-decoration-style: dotted;
-    text-decoration-thickness: 7px;
-}
-
-.info p {
-    line-height: 30px;
-    margin-top: 40px;
-}
-
-.join li {
-    text-transform: lowercase;
-}
-
-.join {
-    margin: 9px;
 }
 
 /* ancient mystery section 
