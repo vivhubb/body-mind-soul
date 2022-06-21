@@ -229,18 +229,51 @@ h1:hover {
     }
 }
 
-/* ancient mystery section 
+/* ancient mystery section */
 
-#mystery {
-    margin-top: 40px;
-    margin-left: auto;
-    margin-right: auto;
+.mystery-section {
+    width: 100%;
+    height: auto;
+    margin-top: 2em;
     text-align: center;
+    background-color: #fdde8b;
+    border-radius: 25px 25px;
+    border: 2px solid #656255
+}
+
+.mystery-section h2 {
+    margin: 1.2em auto;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    text-decoration-thickness: 4px;
+    text-underline-offset: 0.3em;
+}
+
+.story-div {
+    line-height: 2em;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.story {
+    padding: 1.2em 2em;
     border: 2px solid #656255;
     border-radius: 25px 25px;
-    width: 70vw;
-    height: 40vh;
 }
+
+#booklink {
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+    font-weight: bold;
+}
+
+#booklink:hover {
+    border: 2px solid #656255;
+    padding: 0 15px;
+    text-decoration-line: none;
+    font-size: 110%;
+
+/*
 
 #story {
     height: 200px;
@@ -267,8 +300,7 @@ h1:hover {
     padding: 0 15px;
     text-decoration-line: none;
     font-size: 110%;
-}
-*/
+} */
 
 /* sign up section 
 
