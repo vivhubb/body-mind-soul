@@ -249,37 +249,36 @@ h1:hover {
     font-size: 130%;
 }
 
-/* footer 
+/* footer */
 
 .footer {
     width: 100%;
-    height: 8em;
+    height: auto;
+    margin: 2em 0;
     border: 2px solid #1c3532;
-    text-align: center;
+    border-radius: 25px 25px;
+    position: relative;
 }
 
-#jump {
-    float: right;
-
-}
-/*
 #contact {
-    line-height: 8px;
-    margin: 15px;
-    width: 300px;
-    text-align: center;
+    margin: auto 1em;
+    object-fit: cover;
 }
 
-#contact h4 {
-    margin-top: 0;
+.jump-div {
+    height: 2em;
+    width: 20em;
 }
 
 #jump {
+    font-size: medium;
+    font-weight: bolder;
+    border: 2px solid #1c3532;
+    border-radius: 25px 25px;
     position: absolute;
-    top: 35px;
-    right: 15px;
-} 
-*/
+    right: 1em;
+    bottom: 4em;
+}
 
 /***************************
 ****** media queries *******
@@ -342,6 +341,10 @@ h1:hover {
 
     .cover-text h2 {
         line-height: 1.2em;
+    }
+
+    .information-section, .mystery-section, .form-section, .footer, #jump {
+        font-size: 80%;
     }
 }
 
