@@ -78,7 +78,7 @@
         </div>
     </section>
 
-    <section class="mystery-section" id="mystery" >
+    <section class="mystery-section" id="mystery">
         <h2>The Ancient Mystery story of The Fountain of Youth</h2>
         <div class="story-div">
             <p class="story">Legend has it that hidden in the remote reaches of the Himalayan mountains lies an ancient
@@ -102,51 +102,61 @@
         </div>
     </section>
 
-    <!--
-    <section id="form">
+    <section class="form-section" id="form">
         <form action="#" method="post">
             <legend>
                 <h2>Sign Up!</h2>
             </legend>
 
+            <div class="form-div">
+                <div>
+                    <label for="fname">Name:</label>
+                    <input type="text" id="fname" name="fname" placeholder="First Name" required>
+                    <input type="text" id="lname" name="lname" placeholder="Last Name" required>
+                </div>
 
-            <div><label for="fname" class="bold">Name:</label>
-                <input type="text" id="fname" name="fname" placeholder="First Name" required>
-                <input type="text" id="lname" name="lname" placeholder="Last Name" required></div>
+                <div>
+                    <label for="email">Email address:</label>
+                    <input type="email" id="email" name="email" placeholder="Your email address" required>
+                </div>
 
-            <div><label for="email" class="bold">Email address:</label>
-                <input type="email" id="email" name="email" placeholder="Your email address" required></div>
+                <div>
+                    <label for="pnumber">Phone Number:</label>
+                    <input type="tel" id="pnumber" name="pnumber" required>
+                </div>
 
-            <div><label for="pnumber" class="bold">Phone Number:</label>
-                <input type="tel" id="pnumber" name="pnumber" required></div>
+                <div>
+                    <label for="bdate">Date of Birth:</label>
+                    <input type="date" id="bdate" name="bdate" min="1922-06-30" required>
+                </div>
 
-            <div><label for="bdate" class="bold">Date of Birth:</label>
-                <input type="date" id="bdate" name="bdate" min="1922-06-30" required></div>
-
-            <div><label for="attendace"> <strong> Please confirm your attendance period by choosing ONE of the below
-                        options:</strong> (your choice can be amended later on, up to 4 weeks before the trip) </label>
+                <label for="attendace"> Please confirm your attendance period by choosing ONE of the below
+                    options: (your choice can be amended later on, up to 4 weeks before the trip) </label>
                 <br>
 
-                <input type="radio" id="join2" name="join2" value="join2" class="options">
-                <label for="join2" class="smaller">joining for the first two weeks</label><br>
+                <input type="radio" name="join2" value="join2">
+                <label for="join2">joining for the first two weeks</label><br>
 
-                <input type="radio" id="join3" name="join3" value="join3" class="options">
-                <label for="join3" class="smaller">joining for the first three weeks</label><br>
+                <input type="radio" name="join3" value="join3">
+                <label for="join3">joining for the first three weeks</label><br>
 
-                <input type="radio" id="join4" name="join4" value="join4" class="options">
-                <label for="join4" class="smaller">joining for all four weeks</label></div>
+                <input type="radio" name="join4" value="join4">
+                <label for="join4">joining for all four weeks</label>
 
-            <p>** After submitting this form, an email will be sent to you with all the details needed regarding the
-                trip, including further steps to be taken as well as all the required additional information for taking
-                part in the event!!</p>
-
-            <input type="submit" value="Sign Up!" id="submit" class="buttons">
-            <input type="reset" value="Start over" id="reset" class="buttons">
+                <p>** After submitting this form, an email will be sent to you with all the details needed regarding the
+                    trip, including further steps to be taken as well as all the required additional information for
+                    taking
+                    part in the event!!</p>
+    
+                <input type="submit" value="Sign Up!" id="submit" class="buttons">
+                <input type="reset" value="Start over" id="reset" class="buttons">
+            
+            </div>
 
         </form>
     </section>
 
-    <footer id="footer">
+    <footer class="footer">
         <div id="contact">
             <h4>Contact us</h4>
             <p>Email address: bodymindsoul@trip.com</p>
@@ -155,8 +165,7 @@
         <div>
             <button id="jump"><a href="#">Jump to Top</a></button>
         </div>
-    </footer> -->
-
+    </footer>
 </body>
 
 </html>

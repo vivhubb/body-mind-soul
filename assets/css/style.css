@@ -3,7 +3,7 @@
 body {
     font-family: Joan, serif;
     font-weight: 400;
-    color: #2f4553;
+    color: #1c3532;
     background-color: #dcdcdc;
 }
 
@@ -16,7 +16,7 @@ body {
 
 a {
     text-decoration: none;
-    color: #2f4553;
+    color: #1c3532;
     max-width: 50vw;
 }
 
@@ -25,7 +25,7 @@ h1 {
 }
 
 .title {
-    border: 2.5px solid #656255;    
+    border: 2.5px solid #1c3532;  
     border-radius: 5px 5px;
     text-align: center;
     min-height: 3em;
@@ -36,7 +36,7 @@ h1 {
 }
 
 h1:hover {
-    color: #2f4553;
+    color: #1c3532;
     font-weight: lighter;
 }
 
@@ -72,7 +72,7 @@ h1:hover {
 
 
 .links:hover {
-    border: 2px solid #656255;
+    border: 2px solid #1c3532;
     font-size: 110%;
     padding: 0 20px 0 20px;
     text-decoration-line: none;
@@ -100,12 +100,12 @@ h1:hover {
     max-width: 40vw;
     position: absolute;
     right: 3em;
-    top: 5em;
+    top: 12em;
 }
 
 .cover-text {
     text-align: center;
-    border: 4px dotted rgb(35, 82, 66);
+    border: 4px dotted #1c3532;
     border-radius: 50%;
     margin-bottom: 5em;
     padding: 2em 4em;
@@ -132,7 +132,7 @@ h1:hover {
     margin-right: 1.5em;
     margin-bottom: 1.5em;
     padding: 0.5em;
-    border: 2px solid #656255
+    border: 2px solid #1c3532;
 }
 
 .info h3 {
@@ -157,6 +157,129 @@ h1:hover {
     list-style-type: square;
     width: fit-content;
 }
+
+/* ancient mystery section */
+
+.mystery-section {
+    width: 100%;
+    height: auto;
+    margin-top: 2em;
+    text-align: center;
+    background-color: #f2da93;
+    border-radius: 25px 25px;
+    border: 2px solid #1c3532;
+}
+
+.mystery-section h2 {
+    margin: 1.2em auto;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    text-decoration-thickness: 4px;
+    text-underline-offset: 0.3em;
+}
+
+.story-div {
+    line-height: 2em;
+    width: 70%;
+    margin: 0 auto 1.4em;
+}
+
+.story {
+    padding: 1.2em 2em;
+    border: 2px solid #1c3532;
+    border-radius: 25px 25px;
+}
+
+#booklink {
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+    font-weight: bold;
+}
+
+#booklink:hover {
+    border: 2px solid #1c3532;
+    padding: 0 15px;
+    text-decoration-line: none;
+    font-size: 110%;
+}
+
+/* sign up section */
+
+.form-section {
+    width: 100%;
+    height: auto;
+    margin-top: 2em;
+    text-align: center;
+    background-color: #2d594f;
+    border-radius: 25px 25px;
+    border: 2px solid #f2da93;
+    color: #dcdcdc;
+}
+
+.form-section h2 {
+    margin: 1.2em auto;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    text-decoration-thickness: 4px;
+    text-underline-offset: 0.3em;
+}
+
+.form-div {
+    width: 70%;
+    margin: 0 auto 1.4em;
+    line-height: 2.5em;
+    word-spacing: 0.1em;
+    border-radius: 25px 25px;
+    border: 2px solid #f2da93;
+    padding: 1.2em;
+}
+
+.buttons {
+    font-size: medium;
+    font-weight: bolder;
+    color: #2f4553;
+    padding: 5px 15px;
+    margin: 5px 15px;
+    height: 40px;
+    border: 2px solid #f2da93;
+    border-radius: 25px 25px;
+}
+
+.buttons:hover {
+    font-size: 130%;
+}
+
+/* footer 
+
+.footer {
+    width: 100%;
+    height: 8em;
+    border: 2px solid #1c3532;
+    text-align: center;
+}
+
+#jump {
+    float: right;
+
+}
+/*
+#contact {
+    line-height: 8px;
+    margin: 15px;
+    width: 300px;
+    text-align: center;
+}
+
+#contact h4 {
+    margin-top: 0;
+}
+
+#jump {
+    position: absolute;
+    top: 35px;
+    right: 15px;
+} 
+*/
 
 /***************************
 ****** media queries *******
@@ -228,156 +351,3 @@ h1:hover {
         font-size: 1.25em;
     }
 }
-
-/* ancient mystery section */
-
-.mystery-section {
-    width: 100%;
-    height: auto;
-    margin-top: 2em;
-    text-align: center;
-    background-color: #fdde8b;
-    border-radius: 25px 25px;
-    border: 2px solid #656255
-}
-
-.mystery-section h2 {
-    margin: 1.2em auto;
-    text-decoration: underline;
-    text-decoration-style: dotted;
-    text-decoration-thickness: 4px;
-    text-underline-offset: 0.3em;
-}
-
-.story-div {
-    line-height: 2em;
-    width: 70%;
-    margin: 0 auto;
-}
-
-.story {
-    padding: 1.2em 2em;
-    border: 2px solid #656255;
-    border-radius: 25px 25px;
-}
-
-#booklink {
-    text-decoration-line: underline;
-    text-decoration-style: dotted;
-    font-weight: bold;
-}
-
-#booklink:hover {
-    border: 2px solid #656255;
-    padding: 0 15px;
-    text-decoration-line: none;
-    font-size: 110%;
-
-/*
-
-#story {
-    height: 200px;
-    line-height: 40px;
-    font-size: 18px;
-    text-align: center;
-    border: 2px solid #656255;
-    border-radius: 25px 25px;
-    overflow-y: scroll;
-    overflow: auto;
-    margin: 40px auto;
-    padding: 10px 30px;
-    width: 80%;
-}
-
-#booklink {
-    text-decoration-line: underline;
-    text-decoration-style: dotted;
-    font-weight: bold;
-}
-
-#booklink:hover {
-    border: 2px solid #656255;
-    padding: 0 15px;
-    text-decoration-line: none;
-    font-size: 110%;
-} */
-
-/* sign up section 
-
-#form {
-    width: 40vw;
-    height: auto;
-    border: 2px solid #656255;
-    border-radius: 25px 25px;
-    margin:25px auto;
-    padding: 10px;
-    text-align: center;
-}
-
-#form div {
-    margin: 10px 0;
-    padding: 0;
-    word-spacing: 2px;
-}
-
-.options {
-    margin: 15px auto 0;
-}
-
-.smaller {
-    font-size: 14px;
-}
-
-.bold {
-    font-weight: bold;
-}
-
-form p {
-    font-size: x-small;
-    font-weight: bold;
-    letter-spacing: 1px;
-}
-
-#submit, #reset {
-    font-weight: bolder;
-    color: #2f4553;
-    padding: 5px 15px;
-    margin: 5px 15px;
-    height: 40px;
-    border: 2px solid #656255;
-    border-radius: 25px 25px;
-}
-
-.buttons:hover {
-    font-size: 110%;
-}
-*/
-
-/* footer 
-
-#footer {
-    width: 100%;
-    height: 10vh;
-    border: 2px solid #656255;
-    overflow: hidden;
-    display: inline-block;
-    position: relative;
-    text-align: center;
-}
-
-#contact {
-    line-height: 8px;
-    margin: 15px;
-    width: 300px;
-    text-align: center;
-}
-
-#contact h4 {
-    margin-top: 0;
-}
-
-#jump {
-    position: absolute;
-    top: 35px;
-    right: 15px;
-} */
