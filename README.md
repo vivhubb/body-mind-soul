@@ -8,3 +8,5 @@ Users accessing the website will find all necessary information they'll need to 
 - Ancient Mystery (Holding the Ancient Mystery story about the Fountain of Youth as presented by Peter Kelder in his book: Ancient Secret of the Fountain of Youth)
 - Sign Up form
 - Exercise at home (Listing all 5 yoga exercises and step by step explanation with images on how to practice them)
+
+![responsive image](/assets/images/responsive.png)
