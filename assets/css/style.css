@@ -218,6 +218,7 @@ h1:hover {
 
 .form-section h2 {
     margin: 1.2em auto;
+    letter-spacing: 0.1em;
     text-decoration: underline;
     text-decoration-style: dotted;
     text-decoration-thickness: 4px;
@@ -258,6 +259,7 @@ h1:hover {
     border: 2px solid #1c3532;
     border-radius: 25px 25px;
     position: relative;
+    bottom: 0;
 }
 
 #contact {
