@@ -30,7 +30,7 @@ h1 {
     text-align: center;
     min-height: 3em;
     width: min(500px, 50vw);
-    position: absolute;
+    position: relative;
     top: 0.25em;
     margin-top: 1em;
 }
@@ -78,16 +78,63 @@ h1:hover {
     text-decoration-line: none;
 }
 
-/* Cover section */
+/* cover section */
 
 .cover-section {
+    border: 2px solid #1c3532;
+    border-radius: 25px 25px;
+    position: relative;
+    top: 2em;
+    text-align: center;
+    margin: 1em 0;
 }
 
 .on-toes {
-    width: 100%;
+    width: 90%;
     height: 70vh;
     object-fit: cover;
-    position: relative;
-    top: 5em;
     background-repeat: no-repeat;
+    border: 2px solid #1c3532;
+    border-radius: 25px 25px;
+    margin: 2em auto 0;
+}
+
+.cover-section p {
+    text-align: center;
+    vertical-align: middle;
+    font-size: larger;
+    font-weight: bold;
+    margin: 1em auto;
+
+}
+
+/* footer */
+
+.footer {
+    width: 100%;
+    height: auto;
+    margin: 8em 0;
+    border: 2px solid #1c3532;
+    border-radius: 25px 25px;
+    position: relative;
+}
+
+#contact {
+    margin: auto 1em;
+    object-fit: cover;
+}
+
+.jump-div {
+    height: 2em;
+    width: 20em;
+}
+
+#jump {
+    font-size: medium;
+    font-weight: bolder;
+    border: 2px solid #1c3532;
+    border-radius: 25px 25px;
+    position: absolute;
+    right: 1em;
+    bottom: 4em;
 }
