@@ -113,7 +113,7 @@ h1:hover {
 .footer {
     width: 100%;
     height: auto;
-    margin: 8em 0;
+    margin: 8em 0 0;
     border: 2px solid #1c3532;
     border-radius: 25px 25px;
     position: relative;
