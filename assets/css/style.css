@@ -60,7 +60,7 @@ h1:hover {
 }
 
 .links {
-    font-size: 18px;
+    font-size: 16px;
     text-decoration: none;
     text-transform: uppercase;
     list-style-type: none;
@@ -80,7 +80,6 @@ h1:hover {
     text-transform: uppercase;
     list-style-type: none;
     display: inline-block;
-    padding-right: 1.5em;
     text-decoration-line: underline;
     text-decoration-style: dotted;
     text-underline-offset: 0.2em;
@@ -313,7 +312,7 @@ h1:hover {
 
 .message {
     position: absolute;
-    right: 13em;
+    right: 15em;
     top: 27em;
 }
 
@@ -384,21 +383,34 @@ h1:hover {
     margin: 4em 1em;
 }
 
-.first {
+.first,
+.second,
+.third,
+.fourth,
+.fifth {
     width: 100%;
     display: grid;
     grid-template-columns: 60% 40%;
-    text-align: center;
+    justify-content: center;
+    vertical-align: middle;
 }
 
-.first-text {
+.first-text,
+.second-text,
+.third-text,
+.fourth-text,
+.fifth-text {
     text-align: center;
     line-height: 2em;
     width: 75%;
     margin: 2em auto;
 }
 
-.first-img img {
+.first-img img,
+.second-img img,
+.third-img img,
+.fourth-img img,
+.fifth-img img {
     margin: 1em auto;
     border-radius: 25px 25px;
 }
