@@ -217,27 +217,30 @@ h1:hover {
     text-align: center;
     background-color: #f2da93;
     border-radius: 25px 25px;
-    border: 2px solid #1c3532;
+    padding: 2em 0;
 }
 
 .mystery-section h2 {
-    margin: 1.2em auto;
+    margin: 0 auto;
     text-decoration: underline;
     text-decoration-style: dotted;
     text-decoration-thickness: 4px;
     text-underline-offset: 0.3em;
+    position: relative;
+    top: 1em;
+    line-height: 2em;
 }
 
 .story-div {
     line-height: 2em;
     width: 70%;
-    margin: 0 auto 1.4em;
+    margin: 2em auto;
+    position: relative;
+    top: 2em;
 }
 
 .story {
     padding: 1.2em 2em;
-    border: 2px solid #1c3532;
-    border-radius: 25px 25px;
 }
 
 #booklink {
@@ -255,18 +258,17 @@ h1:hover {
 
 /* sign up section */
 
-.form-section {
+/* .form-section {
     width: 100%;
-    height: auto;
     margin-top: 2em;
-    text-align: center;
-    background-color: #2d594f;
+    background-color: #245d5e;
     border-radius: 25px 25px;
-    border: 2px solid #f2da93;
     color: #dcdcdc;
+    padding: 2em;
 }
 
 .form-section h2 {
+    text-align: center;
     margin: 1.2em auto;
     letter-spacing: 0.1em;
     text-decoration: underline;
@@ -281,8 +283,19 @@ h1:hover {
     line-height: 2.5em;
     word-spacing: 0.1em;
     border-radius: 25px 25px;
-    border: 2px solid #f2da93;
     padding: 1.2em;
+    position: relative;
+    top: 2em;
+}
+
+.attendance {
+    width: 400px;
+    height: auto;
+    margin: 2em 0;
+}
+
+.form-div p {
+    font-size: 0.85em;
 }
 
 .buttons {
@@ -298,7 +311,7 @@ h1:hover {
 
 .buttons:hover {
     font-size: 130%;
-}
+} */
 
 /***************************
 ****** media queries *******

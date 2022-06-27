@@ -11,6 +11,8 @@
 
 <body>
 
+    <!-- HEADER -->
+
     <header class="header">
         <div class="title">
             <a href="index.html">
@@ -27,6 +29,8 @@
             </nav>
         </div>
     </header>
+
+    <!-- MYSTERY STORY SECTION -->
     
     <section class="mystery-section" id="mystery">
         <h2>The Ancient Mystery story of The Fountain of Youth</h2>
@@ -51,6 +55,8 @@
             </p>
         </div>
     </section>
+
+    <!-- SIGN UP FORM -->
 
     <section class="form-section" id="form">
         <form action="#" method="post">
@@ -80,18 +86,20 @@
                     <input type="date" id="bdate" name="bdate" min="1922-06-30" required>
                 </div>
 
-                <label for="attendace"> Please confirm your attendance period by choosing ONE of the below
-                    options: (your choice can be amended later on, up to 4 weeks before the trip) </label>
-                <br>
-
-                <input type="radio" name="join2" value="join2">
-                <label for="join2">joining for the first two weeks</label><br>
-
-                <input type="radio" name="join3" value="join3">
-                <label for="join3">joining for the first three weeks</label><br>
-
-                <input type="radio" name="join4" value="join4">
-                <label for="join4">joining for all four weeks</label>
+                <div class="attendance">
+                    <label for="attendace"> Please confirm your attendance period by choosing ONE of the below
+                        options: (your choice can be amended later on, up to 4 weeks before the trip) </label>
+                    <br>
+    
+                    <input type="radio" name="join2" value="join2" id="join2">
+                    <label for="join2">joining for the first two weeks</label><br>
+    
+                    <input type="radio" name="join3" value="join3" id="join3">
+                    <label for="join3">joining for the first three weeks</label><br>
+    
+                    <input type="radio" name="join4" value="join4" id="join4">
+                    <label for="join4">joining for all four weeks</label>
+                </div>
 
                 <p>** After submitting this form, an email will be sent to you with all the details needed regarding the
                     trip, including further steps to be taken as well as all the required additional information for
