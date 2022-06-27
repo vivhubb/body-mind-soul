@@ -370,9 +370,37 @@ h1:hover {
 
 /* exercises section */
 
-.exercises p{
+.exercises p {
     text-align: center;
     font-size: 1.1em;
+}
+
+.exercises-title {
+    letter-spacing: 0.1em;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    text-decoration-thickness: 4px;
+    text-underline-offset: 0.3em;
+    margin: 4em 1em;
+}
+
+.first {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    text-align: center;
+}
+
+.first-text {
+    text-align: center;
+    line-height: 2em;
+    width: 75%;
+    margin: 2em auto;
+}
+
+.first-img img {
+    margin: 1em auto;
+    border-radius: 25px 25px;
 }
 
 /***************************
@@ -427,6 +455,15 @@ h1:hover {
 
     .jump {
         top: 2.5em;
+    }
+
+    .first {
+        grid-template-columns: 100%;
+        width: 100%;
+    }
+
+    .first-img img {
+        max-width: 75%;
     }
 }
 
