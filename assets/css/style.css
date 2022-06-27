@@ -158,6 +158,56 @@ h1:hover {
     width: fit-content;
 }
 
+/* footer */
+
+.footer {
+    background-color: #245d5e;
+    color: #dcdcdc;
+    width: 100%;
+    height: auto;
+    margin: 2em 0;
+    border: 2px solid #1c3532;
+    border-radius: 25px 25px;
+    position: relative;
+}
+
+.footer .follow a {
+    color: #dcdcdc;
+}
+
+.follow {
+    width: 300px;
+    font-size: 2em;
+    word-spacing: 1em;
+    position: absolute;
+    top: 1.5em;
+    left: 1em;
+}
+
+.contact {
+    margin: auto;
+    object-fit: cover;
+    text-align: center;
+    width: 300px;
+}
+
+.jump {
+    font-size: medium;
+    font-weight: bolder;
+    border: 2px solid #1c3532;
+    border-radius: 25px 25px;
+    padding: 1em;
+    position: absolute;
+    right: 1em;
+    top: 2.5em;
+}
+
+.jump i {
+    margin: 0 0.5em;
+}
+
+/* STORY & SIGN UP PAGE */
+
 /* ancient mystery section */
 
 .mystery-section {
@@ -248,37 +298,6 @@ h1:hover {
 
 .buttons:hover {
     font-size: 130%;
-}
-
-/* footer */
-
-.footer {
-    width: 100%;
-    height: auto;
-    margin: 2em 0;
-    border: 2px solid #1c3532;
-    border-radius: 25px 25px;
-    position: relative;
-}
-
-#contact {
-    margin: auto 1em;
-    object-fit: cover;
-}
-
-.jump-div {
-    height: 2em;
-    width: 20em;
-}
-
-#jump {
-    font-size: medium;
-    font-weight: bolder;
-    border: 2px solid #1c3532;
-    border-radius: 25px 25px;
-    position: absolute;
-    right: 1em;
-    bottom: 4em;
 }
 
 /***************************
