@@ -118,7 +118,7 @@ h1:hover {
 /* information section */
 
 .information-section {
-    margin-top: 2em;
+    margin: 2em 1em;
     width: 100%;
     text-align: center;
 }
@@ -326,7 +326,8 @@ h1:hover {
 @media screen and (max-width: 1280px) {
     .title,
     .links,
-    .cover-text {
+    .cover-text
+    .jump {
         font-size: 85%;
     }
 
@@ -336,6 +337,10 @@ h1:hover {
 
     .cover-text-section {
         top: 13em;
+    }
+
+    .jump {
+        top: 2.5em;
     }
 }
 
@@ -367,15 +372,49 @@ h1:hover {
         line-height: 1.2em;
     }
 
-    .information-section, .mystery-section, .form-section, .footer, #jump {
+    .information-section, .mystery-section, .form-section {
         font-size: 80%;
+    }
+
+    .follow, .contact, .jump {
+        font-size: 75%;
+    }
+
+    .follow {
+        top: 4em;
+    }
+
+    .contact {
+        width: 200px;
+        font-size: small;
+    }
+
+    .jump {
+        top: 3em;
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 400px) {
     .cover-text h2 {
         line-height: 1em;
         font-size: 1.25em;
         font-size: small;
+    }
+    
+    .follow, .contact {
+        font-size: 70%;
+    }
+
+    .follow {
+        top: 3.5em;
+    }
+
+    .contact {
+        width: 100px;
+    }
+
+    .jump {
+        top: 4em;
+        font-size: 50%;
     }
 }
