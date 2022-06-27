@@ -363,6 +363,16 @@ h1:hover {
     font-size: 130%;
 }
 
+/* form submit message */
+
+.thank-you {
+    font-size: 2em;
+    text-align: center;
+    width: 65%;
+    height: auto;
+    margin: 5.5em auto;
+}
+
 /* footer */
 
 .border {
