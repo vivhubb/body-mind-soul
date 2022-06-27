@@ -26,14 +26,14 @@ h1 {
 }
 
 .title {
-    border: 2.5px solid #1c3532;  
+    border: 2.5px solid #1c3532;
     border-radius: 5px 5px;
     text-align: center;
     min-height: 3em;
     width: 30%;
     top: 0.25em;
     margin: 0;
-    
+
 }
 
 h1:hover {
@@ -73,7 +73,7 @@ h1:hover {
     text-decoration-line: none;
 }
 
-.current {    
+.current {
     text-decoration: none;
     text-transform: uppercase;
     list-style-type: none;
@@ -258,18 +258,18 @@ h1:hover {
 
 /* sign up section */
 
-/* .form-section {
+.form-section {
     width: 100%;
-    margin-top: 2em;
     background-color: #245d5e;
     border-radius: 25px 25px;
     color: #dcdcdc;
-    padding: 2em;
+    margin: 2em 0 1em;
+    padding: 2em 0 1em;
+    position: relative;
 }
 
 .form-section h2 {
     text-align: center;
-    margin: 1.2em auto;
     letter-spacing: 0.1em;
     text-decoration: underline;
     text-decoration-style: dotted;
@@ -278,40 +278,72 @@ h1:hover {
 }
 
 .form-div {
-    width: 70%;
-    margin: 0 auto 1.4em;
+    width: 75%;
+    margin: 2em auto;
+    padding: 1em 0;
     line-height: 2.5em;
     word-spacing: 0.1em;
     border-radius: 25px 25px;
-    padding: 1.2em;
-    position: relative;
-    top: 2em;
 }
 
-.attendance {
+#fname,
+#lname,
+#email,
+#pnumber,
+#bdate {
+    border: 2px solid #1c3532;
+    border-radius: 25px 25px;
+    color: #1c3532;
+    padding: 0.8em;
+    margin: 1em;
+}
+
+.confirm {
     width: 400px;
-    height: auto;
-    margin: 2em 0;
+    margin: 4em 0;
 }
 
-.form-div p {
-    font-size: 0.85em;
+.joins {
+    padding-top: 2em;
+}
+
+.message {
+    position: absolute;
+    right: 13em;
+    top: 27em;
+}
+
+#message {
+    border: 4px solid #1c3532;
+    border-radius: 25px 25px;
+    color: #1c3532;
+    padding: 2em;
+    font-size: 20px;
+}
+
+.message p {
+    margin: 0 1em;
 }
 
 .buttons {
     font-size: medium;
     font-weight: bolder;
-    color: #2f4553;
-    padding: 5px 15px;
-    margin: 5px 15px;
-    height: 40px;
-    border: 2px solid #f2da93;
+    color: #1c3532;
+    padding: 10px 15px;
+    margin: 10px 15px;
+    border: 2px solid #dcdcdc;
     border-radius: 25px 25px;
+}
+
+.buttons-div {
+    text-align: center;
+    position: relative;
+    margin-top: 2em;
 }
 
 .buttons:hover {
     font-size: 130%;
-} */
+}
 
 /***************************
 ****** media queries *******
@@ -337,10 +369,10 @@ h1:hover {
 }
 
 @media screen and (max-width: 1280px) {
+
     .title,
     .links,
-    .cover-text
-    .jump {
+    .cover-text .jump {
         font-size: 85%;
     }
 
@@ -375,7 +407,7 @@ h1:hover {
     .cover-text-section {
         top: 13em;
     }
-    
+
     .cover-text {
         padding: 1em 2em;
         margin-bottom: 2em;
@@ -385,11 +417,15 @@ h1:hover {
         line-height: 1.2em;
     }
 
-    .information-section, .mystery-section, .form-section {
+    .information-section,
+    .mystery-section,
+    .form-section {
         font-size: 80%;
     }
 
-    .follow, .contact, .jump {
+    .follow,
+    .contact,
+    .jump {
         font-size: 75%;
     }
 
@@ -413,8 +449,9 @@ h1:hover {
         font-size: 1.25em;
         font-size: small;
     }
-    
-    .follow, .contact {
+
+    .follow,
+    .contact {
         font-size: 70%;
     }
 
