@@ -161,7 +161,7 @@ h1:hover {
 /* footer */
 
 .footer {
-    background-color: #245d5e;
+    background-color: #1c3532;
     color: #dcdcdc;
     width: 100%;
     height: auto;
@@ -217,6 +217,7 @@ h1:hover {
     text-align: center;
     background-color: #f2da93;
     border-radius: 25px 25px;
+    border: 2px solid #1c3532;
     padding: 2em 0;
 }
 
@@ -261,6 +262,7 @@ h1:hover {
 .form-section {
     width: 100%;
     background-color: #245d5e;
+    border: 4px solid #f2da93;
     border-radius: 25px 25px;
     color: #dcdcdc;
     margin: 2em 0 1em;
@@ -299,7 +301,7 @@ h1:hover {
 }
 
 .confirm {
-    width: 400px;
+    max-width: 400px;
     margin: 4em 0;
 }
 
@@ -319,6 +321,7 @@ h1:hover {
     color: #1c3532;
     padding: 2em;
     font-size: 20px;
+    max-width: 600px;
 }
 
 .message p {
@@ -365,6 +368,15 @@ h1:hover {
 
     .cover-text {
         font-size: 95%;
+    }
+
+    .message {
+        position: inherit;
+    }
+
+    #message {
+        size: 80%;
+        font-size: small;
     }
 }
 
@@ -440,6 +452,23 @@ h1:hover {
 
     .jump {
         top: 3em;
+    }
+
+    .form-section {
+        size: 60%;
+    }
+
+    #message {
+        size: 70%;
+        font-size: smaller;
+    }
+
+    #fname,
+    #lname,
+    #email,
+    #pnumber,
+    #bdate {
+        font-size: 80%;
     }
 }
 
