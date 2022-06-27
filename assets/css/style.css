@@ -5,6 +5,7 @@ body {
     font-weight: 400;
     color: #1c3532;
     background-color: #dcdcdc;
+    max-width: 100%;
 }
 
 /* header */
@@ -12,12 +13,12 @@ body {
 .header {
     width: 100%;
     position: relative;
+    margin: 2em auto;
 }
 
 a {
     text-decoration: none;
     color: #1c3532;
-    max-width: 50vw;
 }
 
 h1 {
@@ -29,10 +30,10 @@ h1 {
     border-radius: 5px 5px;
     text-align: center;
     min-height: 3em;
-    width: min(500px, 50vw);
-    position: absolute;
+    width: 30%;
     top: 0.25em;
-    margin-top: 1em;
+    margin: 0;
+    
 }
 
 h1:hover {
@@ -42,15 +43,12 @@ h1:hover {
 
 /* navigation bar */
 
-.nav-div {
-    position: fixed;
-    right: 0;
-    top: 1em;
-    width: 100%;
-}
-
 .nav-bar {
     word-spacing: 0.2rem;
+    position: absolute;
+    top: 1em;
+    right: 2em;
+    max-width: 60%;
 }
 
 .nav-ul {
@@ -60,6 +58,22 @@ h1:hover {
 }
 
 .links {
+    font-size: 18px;
+    text-decoration: none;
+    text-transform: uppercase;
+    list-style-type: none;
+    display: inline-block;
+    padding-right: 1.5em;
+}
+
+.links:hover {
+    border: 2px solid #1c3532;
+    font-size: 110%;
+    padding: 0 20px 0 20px;
+    text-decoration-line: none;
+}
+
+.current {    
     text-decoration: none;
     text-transform: uppercase;
     list-style-type: none;
@@ -70,45 +84,31 @@ h1:hover {
     text-underline-offset: 0.2em;
 }
 
-
-.links:hover {
-    border: 2px solid #1c3532;
-    font-size: 110%;
-    padding: 0 20px 0 20px;
-    text-decoration-line: none;
-}
-
 /* hero image and cover text */
 
 .hero-section {
     position: relative;
     top: 0;
     left: 0;
+    margin: 0;
     z-index: -1;
 }
 
 .hero {
-    width: 52vw;
-    height: 90vh;
+    width: 60vw;
+    height: 80vh;
     object-fit: cover;
     background-repeat: no-repeat;
 }
 
 .cover-text-section {
-    display: block;
-    float: right;
-    max-width: 40vw;
     position: absolute;
-    right: 3em;
-    top: 12em;
+    top: 10em;
+    left: 7em;
 }
 
 .cover-text {
     text-align: center;
-    border: 4px dotted #1c3532;
-    border-radius: 50%;
-    margin-bottom: 5em;
-    padding: 2em 4em;
 }
 
 .cover-text h2 {
@@ -285,37 +285,42 @@ h1:hover {
 ****** media queries *******
 ***************************/
 
-@media screen and (max-width: 1150px) {
+@media screen and (max-width: 1600px) {
     .title {
         top: 2em;
-        max-width: 50vw;
+        max-width: 50%;
+    }
+
+    .hero-section img {
+        width: 100vw;
+    }
+
+    .cover-text-section {
+        left: 2em;
     }
 
     .cover-text {
         font-size: 95%;
     }
-
-    .cover-text-section {
-        right: 1.5em;
-    }
 }
 
-@media screen and (max-width: 910px) {
+@media screen and (max-width: 1280px) {
+    .title,
     .links,
     .cover-text {
-        font-size: 75%;
+        font-size: 85%;
+    }
+
+    .nav-bar {
+        right: 1em;
     }
 
     .cover-text-section {
-        top: 10em;
-    }
-
-    .cover-text {
-        margin-bottom: 3em;
+        top: 13em;
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
     .title {
         top: 4em;
     }
@@ -331,8 +336,7 @@ h1:hover {
     }
 
     .cover-text-section {
-        right: 0.25em;
-        top: 7em;
+        top: 13em;
     }
     
     .cover-text {
@@ -349,7 +353,7 @@ h1:hover {
     }
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 600px) {
     .cover-text h2 {
         line-height: 1em;
         font-size: 1.25em;
