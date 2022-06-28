@@ -13,7 +13,9 @@ Upon accessing the website users will find among 3 pages all the necessary infor
 ![responsive image](/assets/readme.images/responsive.png)
 
 ---
+---
 ## FEATURES
+---
 ---
 
 ### HEADER & NAVIGATION
@@ -56,7 +58,7 @@ Upon accessing the website users will find among 3 pages all the necessary infor
     * holds a short description and explanation of why THE FIVE TIBETAN RITES is considered to hold the secret of The Fountain of Youth
     * the story contains a link that will lead to the website for Peter Kelder's book The Ancient Secret of the Fountain of Youth displaying in pdf format.
 
-![information snip](/assets/readme.images/mystery.png)
+![mystery snip](/assets/readme.images/mystery.png)
 
 ### SIGN UP FORM
 
@@ -65,15 +67,45 @@ Upon accessing the website users will find among 3 pages all the necessary infor
     * requires details such as: Name, Email Address, Phone number, Date of Birth, Attendace period confirmation
     * has a MESSAGE US section where additional questions/queries/concerns can be raised
 
-![information snip](/assets/readme.images/form.png)
+![form snip](/assets/readme.images/form.png)
+
+* SIGN UP FORM CONFIRMATION
+    * upon submitting the form a confirmation message pops up regarding the form submission
+    * the page will have all the features presented in the header and footer sections
+
+![thank you snip](/assets/readme.images/thankyou.png)
 
 ---
 
 ### AT HOME PAGE
 
 * EXERCISE AT HOME PAGE
-    * opens with a hero image and a quote abouth the relation of exercise and health
+    * opens with a hero image and a quote abouth the relation between exercise and health
+
+![at home page cover snip](/assets/readme.images/athome-cover.png)
+
     * gives an opportunity to people who are unable to attend the journey but would be interested in exercising at home
     * lists all 5 tibetan rites in order with step by step explanations and images
 
-    ![image](/assets/readme.images/)
+![exercises snip](/assets/readme.images/exercises.png)
+
+---
+
+### FOOTER SECTION
+
+* FOOTER
+    * provides users with the opportunity to visit our social media sites and listen or listen to a wide selection of our calming playlists
+    * displays all necessary contact information for people who want to get in touch with the team
+    * contains a "jump to top" feature which is fixed positioned on the page
+
+![footer snip](/assets/readme.images/footer.png)
+
+---
+---
+## TESTING
+---
+---
+
+* Website has been tested across multiple types of browsers including: Chrome, Firefox, Safari.
+* Website's responsive design was tested for all common screen sizes with Developer Tools and [Am I Responsive?](https://ui.dev/amiresponsive)
+

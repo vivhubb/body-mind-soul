@@ -194,7 +194,6 @@ h1:hover {
 }
 
 .jump {
-    font-size: medium;
     border: 2px solid #1c3532;
     background: #dcdcdc;
     border-radius: 25px 25px;
@@ -202,6 +201,7 @@ h1:hover {
     position: fixed;
     right: 2em;
     bottom: 4.5em;
+    max-height: 20px;
 }
 
 .jump i {
@@ -370,7 +370,7 @@ h1:hover {
     text-align: center;
     width: 65%;
     height: auto;
-    margin: 5.5em auto;
+    margin: 8.3em auto;
 }
 
 /* footer */
@@ -496,10 +496,6 @@ h1:hover {
         top: 13em;
     }
 
-    .jump {
-        top: 2.5em;
-    }
-
     .first,
     .second,
     .third,
@@ -569,8 +565,7 @@ h1:hover {
     }
 
     .follow,
-    .contact,
-    .jump {
+    .contact {
         font-size: 75%;
     }
 
@@ -581,10 +576,6 @@ h1:hover {
     .contact {
         width: 200px;
         font-size: small;
-    }
-
-    .jump {
-        top: 3em;
     }
 
     .form-section {
@@ -607,6 +598,13 @@ h1:hover {
     .split {
         max-height: 100px;
     }
+    .thank-you {
+        font-size: 1em;
+    }
+
+    .jump {
+        font-size: smaller;
+    }
 }
 
 @media screen and (max-width: 400px) {
@@ -627,11 +625,6 @@ h1:hover {
 
     .contact {
         width: 100px;
-    }
-
-    .jump {
-        top: 4em;
-        font-size: 50%;
     }
 
     .split {
