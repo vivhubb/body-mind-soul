@@ -1,10 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Joan&display=swap');
 
+html {
+    overflow-x: hidden;
+}
+
 body {
     font-family: Joan, serif;
     font-weight: 400;
-    color: #1c3532;
+    color: #0b071e;
     background-color: #dcdcdc;
+    overflow-x: hidden;
 }
 
 /* header */
@@ -17,7 +22,7 @@ body {
 
 a {
     text-decoration: none;
-    color: #1c3532;
+    color: #0b071e;
 }
 
 h1 {
@@ -25,7 +30,7 @@ h1 {
 }
 
 .title {
-    border: 2.5px solid #1c3532;
+    border: 2.5px solid #0b071e;
     border-radius: 5px 5px;
     text-align: center;
     min-height: 3em;
@@ -36,7 +41,7 @@ h1 {
 }
 
 h1:hover {
-    color: #1c3532;
+    color: #0b071e;
     font-weight: lighter;
 }
 
@@ -66,8 +71,8 @@ h1:hover {
 }
 
 .links:hover {
-    border: 2px solid #1c3532;
-    font-size: 115%;
+    border: 2px solid #0b071e;
+    font-size: 1.2em;
     padding: 0 20px 0 20px;
     text-decoration-line: none;
 }
@@ -80,7 +85,7 @@ h1:hover {
     text-decoration-line: underline;
     text-decoration-style: dotted;
     text-underline-offset: 0.2em;
-    font-size: 110%;
+    font-size: 1.1em;
 }
 
 /* ABOUT PAGE */
@@ -96,7 +101,7 @@ h1:hover {
 }
 
 .hero {
-    width: 50%;
+    width: 100%;
     height: 80vh;
     object-fit: cover;
     background-repeat: no-repeat;
@@ -105,8 +110,7 @@ h1:hover {
 
 .cover-text-section {
     position: absolute;
-    top: 10em;
-    left: 4em;
+    left: 2em;
 }
 
 .cover-text {
@@ -115,6 +119,7 @@ h1:hover {
 
 .cover-text h2 {
     line-height: 2em;
+    color: #dcdcdc;
 }
 
 /* information section */
@@ -134,7 +139,8 @@ h1:hover {
     margin-right: 1.5em;
     margin-bottom: 1.5em;
     padding: 0.5em;
-    border: 2px solid #1c3532;
+    border: 2px solid #0b071e;
+    overflow-x: hidden;
 }
 
 .info h3 {
@@ -163,18 +169,18 @@ h1:hover {
 /* footer */
 
 .footer {
-    background-color: #1c3532;
-    color: #dcdcdc;
+    background-color: #0b071e;
+    color: #dc827f;
     width: 100%;
     height: auto;
     margin: 2em 0;
-    border: 2px solid #1c3532;
+    border: 2px solid #0b071e;
     border-radius: 25px 25px;
     position: relative;
 }
 
 .footer .follow a {
-    color: #dcdcdc;
+    color: #a77d8b;
 }
 
 .follow {
@@ -187,6 +193,7 @@ h1:hover {
 }
 
 .contact {
+    color: #a77d8b;
     margin: auto;
     object-fit: cover;
     text-align: center;
@@ -194,8 +201,8 @@ h1:hover {
 }
 
 .jump {
-    border: 2px solid #1c3532;
-    background: #dcdcdc;
+    border: 2px solid #0b071e;
+    background: #a77d8b;
     border-radius: 25px 25px;
     padding: 1em;
     position: fixed;
@@ -457,13 +464,9 @@ h1:hover {
         max-width: 50%;
     }
 
-    .hero-section img {
-        width: 100%;
-    }
-
-    .cover-text-section {
+    /* .cover-text-section {
         left: 2em;
-    }
+    } */
 
     .cover-text {
         font-size: 95%;
@@ -546,7 +549,8 @@ h1:hover {
     }
 
     .cover-text-section {
-        top: 13em;
+        top: 12em;
+        left: 0.5em;
     }
 
     .cover-text {
@@ -555,7 +559,7 @@ h1:hover {
     }
 
     .cover-text h2 {
-        line-height: 1.2em;
+        line-height: 2em;
     }
 
     .information-section,
@@ -609,7 +613,7 @@ h1:hover {
 
 @media screen and (max-width: 400px) {
     .cover-text h2 {
-        line-height: 1em;
+        line-height: 3em;
         font-size: 1.25em;
         font-size: small;
     }
@@ -620,7 +624,7 @@ h1:hover {
     }
 
     .follow {
-        top: 3.5em;
+        top: 4em;
     }
 
     .contact {
