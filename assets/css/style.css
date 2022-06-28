@@ -5,7 +5,6 @@ body {
     font-weight: 400;
     color: #1c3532;
     background-color: #dcdcdc;
-    max-width: 100%;
 }
 
 /* header */
@@ -68,7 +67,7 @@ h1:hover {
 
 .links:hover {
     border: 2px solid #1c3532;
-    font-size: 120%;
+    font-size: 115%;
     padding: 0 20px 0 20px;
     text-decoration-line: none;
 }
@@ -81,7 +80,7 @@ h1:hover {
     text-decoration-line: underline;
     text-decoration-style: dotted;
     text-underline-offset: 0.2em;
-    font-size: 115%;
+    font-size: 110%;
 }
 
 /* ABOUT PAGE */
@@ -107,7 +106,7 @@ h1:hover {
 .cover-text-section {
     position: absolute;
     top: 10em;
-    left: 7em;
+    left: 4em;
 }
 
 .cover-text {
@@ -166,7 +165,7 @@ h1:hover {
 .footer {
     background-color: #1c3532;
     color: #dcdcdc;
-    max-width: 100%;
+    width: 100%;
     height: auto;
     margin: 2em 0;
     border: 2px solid #1c3532;
@@ -179,7 +178,7 @@ h1:hover {
 }
 
 .follow {
-    width: 300px;
+    max-width: 300px;
     font-size: 2em;
     word-spacing: 1em;
     position: absolute;
@@ -196,13 +195,13 @@ h1:hover {
 
 .jump {
     font-size: medium;
-    font-weight: bolder;
     border: 2px solid #1c3532;
+    background: #dcdcdc;
     border-radius: 25px 25px;
     padding: 1em;
-    position: absolute;
-    right: 1em;
-    top: 2.5em;
+    position: fixed;
+    right: 2em;
+    bottom: 4.5em;
 }
 
 .jump i {
@@ -316,19 +315,19 @@ h1:hover {
 }
 
 .confirm {
-    max-width: 400px;
-    margin: 4em 0;
+    max-width: 600px;
+    margin: 2em 0;
+    margin-bottom: 4em;
 }
 
 .joins {
-    padding-top: 2em;
     font-size: 90%;
 }
 
 .message {
     position: absolute;
     right: 20em;
-    top: 27em;
+    top: 28em;
 }
 
 #message {
@@ -336,7 +335,7 @@ h1:hover {
     border-radius: 25px 25px;
     color: #1c3532;
     padding: 2em;
-    font-size: 20px;
+    font-size: 18px;
     max-width: 600px;
 }
 
@@ -459,7 +458,7 @@ h1:hover {
     }
 
     .hero-section img {
-        width: 100vw;
+        width: 100%;
     }
 
     .cover-text-section {

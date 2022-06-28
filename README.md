@@ -75,3 +75,5 @@ Upon accessing the website users will find among 3 pages all the necessary infor
     * opens with a hero image and a quote abouth the relation of exercise and health
     * gives an opportunity to people who are unable to attend the journey but would be interested in exercising at home
     * lists all 5 tibetan rites in order with step by step explanations and images
+
+    ![image](/assets/readme.images/)
