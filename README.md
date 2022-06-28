@@ -17,6 +17,7 @@ Upon accessing the website users will find among 3 pages all the necessary infor
 ## FEATURES
 ---
 ---
+## EXISTING FEATURES
 
 ### HEADER & NAVIGATION
 
@@ -102,10 +103,71 @@ Upon accessing the website users will find among 3 pages all the necessary infor
 
 ---
 ---
+## FUTURE FEATURES
+
+* Organizing tours to different parts of the world
+* Online yoga classes multiple times a week with
+
+---
+---
 ## TESTING
 ---
 ---
 
 * Website has been tested across multiple types of browsers including: Chrome, Firefox, Safari.
 * Website's responsive design was tested for all common screen sizes with Developer Tools and [Am I Responsive?](https://ui.dev/amiresponsive)
+
+![responsive snip](/assets/readme.images/responsive2.png)
+
+---
+---
+## CODE VALIDATION
+---
+---
+
+THE FIVE TIBETAN RITES TOUR website has been tested with both [W3C Validation Service](https://validator.w3.org/) and [W3C CSS Validation service](https://jigsaw.w3.org/css-validator/)
+
+## HTML
+
+### ABOUT PAGE
+
+* test
+
+![HTML-CHECK1](/assets/readme.images/html-checker.png)
+
+* fix
+
+![HTML-CHECK1-FIX](/assets/readme.images/html-checker-fix.png)
+
+### ANCIENT MYSTERY & SIGN UP
+
+* test
+
+![HTML-CHECK2](/assets/readme.images/html-checker2.png)
+
+* fix
+
+![HTML-CHECK2-FIX](/assets/readme.images/html-checker2-fix.png)
+
+### EXERCISE AT HOME
+
+* test
+
+![HTML-CHECK3](/assets/readme.images/html-checker3.png)
+
+### FORM SUBMISSION PAGE
+
+* test
+
+![HTML-CHECK4](/assets/readme.images/html-checker4.png)
+
+## CSS VALIDATION
+
+* test
+
+![CSS-CHECK](/assets/readme.images/CSS%20validation%20errors.png)
+
+* fix
+
+![CSS-fix](/assets/readme.images/CSS%20validattion%20fix.png)
 
