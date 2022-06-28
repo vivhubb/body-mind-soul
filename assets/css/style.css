@@ -166,7 +166,7 @@ h1:hover {
 .footer {
     background-color: #1c3532;
     color: #dcdcdc;
-    width: 100%;
+    max-width: 100%;
     height: auto;
     margin: 2em 0;
     border: 2px solid #1c3532;
@@ -401,20 +401,6 @@ h1:hover {
     font-weight: bold;
 }
 
-/* .cover {
-    width: 100%;
-    max-height: 70vh;
-    object-fit: cover;
-    border-radius: 25px 25px;
-}
-
-.cover-section p {
-    text-align: center;
-    font-weight: bold;
-    font-size: x-large;
-    margin-top: 4em;
-} */
-
 /* exercises section */
 
 .exercises p {
@@ -461,7 +447,7 @@ h1:hover {
 .fifth-img img {
     margin: 1em auto;
     border-radius: 25px 25px;
-    size: 60%;
+    font-size: 60%;
 }
 
 /**** MEDIA QUERIES ****/
@@ -603,11 +589,11 @@ h1:hover {
     }
 
     .form-section {
-        size: 60%;
+        font-size: 60%;
     }
 
     #message {
-        size: 90%;
+        font-size: 90%;
         font-size: small;
     }
 
