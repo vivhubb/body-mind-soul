@@ -241,7 +241,7 @@ h1:hover {
 }
 
 .fa-book {
-    margin: 0.8em;
+    margin: 0.2em;
     font-size: 1.5em;
 }
 
@@ -296,7 +296,7 @@ h1:hover {
 
 .fa-feather-pointed {
     font-size: 1.25em;
-    margin: 0.5em;
+    margin: 0.2em;
 }
 
 .form-div {
@@ -586,17 +586,21 @@ h1:hover {
         font-size: 60%;
     }
 
-    #message {
-        font-size: 90%;
-        font-size: small;
-    }
-
     #fname,
     #lname,
     #email,
     #pnumber,
     #bdate {
         font-size: 80%;
+    }
+
+    #message {
+        font-size: small;
+        width: 60%;
+    }
+
+    .buttons {
+        font-size: smaller;
     }
 
     .split {
