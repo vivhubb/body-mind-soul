@@ -411,7 +411,8 @@ h1:hover {
 
 .exercises p {
     text-align: center;
-    font-size: 1.1em;
+    font-size: 1.5em;
+    margin: 1em;
 }
 
 .exercises-title {
@@ -606,6 +607,31 @@ h1:hover {
     .split {
         max-height: 100px;
     }
+
+    .split-text {
+        font-size: 0.8em;
+    }
+
+    .exercises p {
+        font-size: 1em;
+    }
+
+    .exercises-title {
+        margin-top: 2em;
+    }
+
+    .contents {
+        font-size: 0.8em;
+    }
+
+    .first,
+    .second,
+    .third,
+    .fourth,
+    .fifth {
+        font-size: 0.8em;
+    }
+
     .thank-you {
         font-size: 1em;
     }
@@ -635,7 +661,19 @@ h1:hover {
         width: 100px;
     }
 
+    .split-cover {
+        margin: 0.2em auto;
+    }
+
     .split {
         max-height: 75px;
+    }
+
+    .split-text {
+        font-size: 0.4em;
+    }
+
+    .exercises p {
+        font-size: 0.8em;
     }
 }
