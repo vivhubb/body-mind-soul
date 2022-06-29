@@ -253,15 +253,23 @@ THE FIVE TIBETAN RITES TOUR website has been tested with both [W3C Validation Se
 
 * mobile test
 
-![about-mobile]()
+![about mobile](/assets/readme.images/lighthouse-mobile.png)
 
 * Mystery story and Sign up page
 ---
 ![mystery & signup](/assets/readme.images/lighthouse2.png)
 
+* mobile test
+
+![mystery & signup mobile](/assets/readme.images/lighthouse-mobile2.png)
+
 * Exercise at home page
 ---
 ![athome](/assets/readme.images/lighthouse3.png)
+
+* mobile test
+
+![about-mobile](/assets/readme.images/lighthouse-mobile3.png)
 
 ---
 ## **DEPLOYMENT**
