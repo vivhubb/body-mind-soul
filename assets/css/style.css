@@ -640,6 +640,14 @@ h1:hover {
         font-size: 0.8em;
     }
 
+    .first-img img,
+    .second-img img,
+    .third-img img,
+    .fourth-img img,
+    .fifth-img img {
+        max-height: 70vh;
+    }
+
     .thank-you {
         font-size: 1em;
     }
@@ -683,5 +691,13 @@ h1:hover {
 
     .exercises p {
         font-size: 0.8em;
+    }
+
+    .first-img img,
+    .second-img img,
+    .third-img img,
+    .fourth-img img,
+    .fifth-img img {
+        max-height: 50vh;
     }
 }
