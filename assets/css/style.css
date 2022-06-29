@@ -451,6 +451,20 @@ h1:hover {
     font-size: 60%;
 }
 
+/* At home page footer */
+
+.footer-third {
+    border: 4px solid #dcdcdc;
+}
+
+.footer .follow-third a {
+    color: #dcdcdc;
+}
+
+.jump-third {
+    background: #dcdcdc;
+}
+
 /**** MEDIA QUERIES ****/
 
 @media screen and (max-width: 1600px) {
