@@ -44,10 +44,7 @@ Upon accessing the website users will find among 3 pages all the necessary infor
         - [**EXERCISE AT HOME**](#exercise-at-home)
         - [**FORM SUBMISSION PAGE**](#form-submission-page)
     - [**CSS VALIDATION**](#css-validation)
-    - [**VALIDATOR TESTING**](#validator-testing)
-    - [st page](#st-page)
-    - [nd page](#nd-page)
-    - [rd page](#rd-page)
+    - [**LIGHTHOUSE TESTING**](#lighthouse-testing)
     - [**DEPLOYMENT**](#deployment)
     - [**CREDITS**](#credits)
         - [**CONTENT**](#content)
@@ -247,17 +244,17 @@ THE FIVE TIBETAN RITES TOUR website has been tested with both [W3C Validation Se
 
 ![CSS-fix](/assets/readme.images/CSS%20validattion%20fix.png)
 
-## **VALIDATOR TESTING**
+## **LIGHTHOUSE TESTING**
 
-1st page
+* Main page
 ---
 ![about](/assets/readme.images/lighthouse.png)
 
-2nd page
+* Mystery story and Sign up page
 ---
 ![mystery & signup](/assets/readme.images/lighthouse2.png)
 
-3rd page
+* Exercise at home page
 ---
 ![athome](/assets/readme.images/lighthouse3.png)
 
