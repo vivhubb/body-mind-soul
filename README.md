@@ -165,7 +165,8 @@ The colour scheme choice was partly based on the main page's hero image keeping 
 
 ![at home page cover snip](/assets/readme.images/athome-cover.png)
 
-    * gives an opportunity to people who are unable to attend the journey but would be interested in exercising at home
+    * gives an opportunity to people who are unable to attend the journey 
+    but would be interested in exercising at home
     * lists all 5 tibetan rites in order with step by step explanations and images
 
 ![exercises snip](/assets/readme.images/exercises.png)
