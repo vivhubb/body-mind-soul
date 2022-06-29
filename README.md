@@ -40,8 +40,8 @@ Upon accessing the website users will find among 3 pages all the necessary infor
     - [**TESTING**](#testing)
     - [**HTML**](#html)
         - [**ABOUT PAGE**](#about-page)
-        - [**ANCIENT MYSTERY & SIGN UP**](#ancient-mystery--sign-up)
-        - [**EXERCISE AT HOME**](#exercise-at-home)
+        - [**ANCIENT MYSTERY & SIGN UP PAGE**](#ancient-mystery--sign-up-page)
+        - [**EXERCISE AT HOME PAGE**](#exercise-at-home-page)
         - [**FORM SUBMISSION PAGE**](#form-submission-page)
     - [**CSS VALIDATION**](#css-validation)
     - [**LIGHTHOUSE TESTING**](#lighthouse-testing)
@@ -212,7 +212,7 @@ THE FIVE TIBETAN RITES TOUR website has been tested with both [W3C Validation Se
 
 ![HTML-CHECK1-FIX](/assets/readme.images/html-checker-fix.png)
 
-### **ANCIENT MYSTERY & SIGN UP**
+### **ANCIENT MYSTERY & SIGN UP PAGE**
 
 * test
 
@@ -222,7 +222,7 @@ THE FIVE TIBETAN RITES TOUR website has been tested with both [W3C Validation Se
 
 ![HTML-CHECK2-FIX](/assets/readme.images/html-checker2-fix.png)
 
-### **EXERCISE AT HOME**
+### **EXERCISE AT HOME PAGE**
 
 * test
 
