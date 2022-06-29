@@ -1,8 +1,9 @@
-# THE FIVE TIBETAN RITES TOUR
+# BodyMindSoul (BMS)
+## THE FIVE TIBETAN RITES TOUR
 
-Welcome to [THE FIVE TIBETAN RITES TOUR](https://vivhubb.github.io/body-mind-soul/) website.
+Welcome to the [BodyMindSoul](https://vivhubb.github.io/body-mind-soul/) website.
 
-The Five Tibetan Rites Tour is a website for an event held for people who want to try the health benefits of the Five Tibetan Yoga Exercises while also exploring the Ancient Mystery story of the Fountain of Youth.
+The BodyMindSoul is a website for THE FIVE TIBETAN RITES TOUR event held for people who want to try the health benefits of the Five Tibetan Yoga Exercises while also exploring the Ancient Mystery story of the Fountain of Youth.
 
 Upon accessing the website users will find among 3 pages all the necessary information they'll need to join in on the tour as well as to exercise at home:
 
@@ -10,12 +11,86 @@ Upon accessing the website users will find among 3 pages all the necessary infor
 - Ancient Mystery & Sign Up form 
 - Exercise at home
 
-![responsive image](/assets/readme.images/responsive.png)
+![responsive image](/assets/readme.images/responsive0.png)
 
 ---
+## CONTENTS
+---
+
+<!-- TOC -->
+
+- [BodyMindSoul BMS](#bodymindsoul-bms)
+    - [THE FIVE TIBETAN RITES TOUR](#the-five-tibetan-rites-tour)
+    - [CONTENTS](#contents)
+    - [USER EXPERIENCE UX](#user-experience-ux)
+        - [USER STORIES](#user-stories)
+        - [WIREFRAMES](#wireframes)
+    - [SITE STRUCTURE](#site-structure)
+    - [DESIGN](#design)
+    - [FEATURES](#features)
+    - [EXISTING FEATURES](#existing-features)
+        - [HEADER & NAVIGATION](#header--navigation)
+        - [HERO IMAGE & COVER TEXT](#hero-image--cover-text)
+        - [INFORMATION SECTION](#information-section)
+        - [ANCIENT MYSTERY STORY](#ancient-mystery-story)
+        - [SIGN UP FORM](#sign-up-form)
+        - [AT HOME PAGE](#at-home-page)
+        - [FOOTER SECTION](#footer-section)
+    - [FUTURE FEATURES](#future-features)
+    - [TESTING](#testing)
+    - [HTML](#html)
+        - [ABOUT PAGE](#about-page)
+        - [ANCIENT MYSTERY & SIGN UP](#ancient-mystery--sign-up)
+        - [EXERCISE AT HOME](#exercise-at-home)
+        - [FORM SUBMISSION PAGE](#form-submission-page)
+    - [CSS VALIDATION](#css-validation)
+    - [DEPLOYMENT](#deployment)
+
+<!-- /TOC -->
+
+---
+## USER EXPERIENCE UX
+---
+### USER STORIES
+
+* As a user i want to understand the purpose of the site when accessing
+* As a user i want to be able to navigate through the website easily
+* As a user i want to clearly understand the information provided on the website
+* As a user i want to find out more about yoga benefits for metal and physical health
+* As a user i want to have a reason to return to the website without attending the event
+* As a user i want to connect with the BMS team on social media
+* As a user i want to be able to contact the BMS support team for additional queries
+
+### WIREFRAMES
+
+The WIREFRAMES for MindBodySoul were created in [Balsamiq](https://balsamiq.com/), initially for wider viewports, to help visualize the project. They slightly differ from the website's final look due to developements and new ideas during creation.
+
+![wireframe1](/assets/readme.images/wireframe1.png)
+![wireframe2](/assets/readme.images/wireframe2.png)
+![wireframe3](/assets/readme.images/wireframe3.png)
+
+---
+## SITE STRUCTURE
+---
+
+The BodyMindSoul website presenting THE FIVE TIBETAN RITES event has three pages: [ABOUT](https://vivhubb.github.io/body-mind-soul/index.html) which is the default loading page, [ANCIENT MYSTERY & SIGN UP!](https://vivhubb.github.io/body-mind-soul/signup.html) and [EXERCISE AT HOME](https://vivhubb.github.io/body-mind-soul/athome.html).
+
+---
+## DESIGN
+---
+
+* TYPEFACE
+
+The chosen font for the website was Joan, which falls back on serif. Choice was made due to the fonts uppercase version reflecting an antic style and "carved in stone" effect complementing the website's aesthetics togteher with it's lowercase form.
+
+* COLOUR SCHEME
+
+The colour scheme choice was partly based on the main page's hero image keeping a common attribute throughout the whole website. Purple, among other things, is associated with mystery. Lighter shades of purple are often used to soothe or calm a viewer. Darker blue and dirty white were used for providing contrast and ease readability.
+
+![color palette](/assets/readme.images/colorpalette.png)
+
 ---
 ## FEATURES
----
 ---
 ## EXISTING FEATURES
 
@@ -39,7 +114,7 @@ Upon accessing the website users will find among 3 pages all the necessary infor
 * HERO IMAGE is for setting the mood and color theme of the website
 * COVER TEXT provides with clear information of the purpose of the event
 
-![hero image and cover text snip](/assets/readme.images/hero.cover.text.png)
+![hero image and cover text snip](/assets/readme.images/hero.png)
 
 ---
 ### INFORMATION SECTION
@@ -61,6 +136,7 @@ Upon accessing the website users will find among 3 pages all the necessary infor
 
 ![mystery snip](/assets/readme.images/mystery.png)
 
+---
 ### SIGN UP FORM
 
 * SIGN UP
@@ -77,11 +153,10 @@ Upon accessing the website users will find among 3 pages all the necessary infor
 ![thank you snip](/assets/readme.images/thankyou.png)
 
 ---
-
 ### AT HOME PAGE
 
 * EXERCISE AT HOME PAGE
-    * opens with a hero image and a quote abouth the relation between exercise and health
+    * opens with a hero image and a quote about the relation between exercise and health
 
 ![at home page cover snip](/assets/readme.images/athome-cover.png)
 
@@ -91,7 +166,6 @@ Upon accessing the website users will find among 3 pages all the necessary infor
 ![exercises snip](/assets/readme.images/exercises.png)
 
 ---
-
 ### FOOTER SECTION
 
 * FOOTER
@@ -102,28 +176,22 @@ Upon accessing the website users will find among 3 pages all the necessary infor
 ![footer snip](/assets/readme.images/footer.png)
 
 ---
----
 ## FUTURE FEATURES
 
 * Organizing tours to different parts of the world
-* Online yoga classes multiple times a week with
+* Online yoga classes multiple times a week
+* Video guides for: breathing exercises, meditation, sound healing and such.
 
----
 ---
 ## TESTING
 ---
----
 
-* Website has been tested across multiple types of browsers including: Chrome, Firefox, Safari.
+* Website has been tested among the most commonly used types of browsers, such as: Google Chrome, Firefox, Safari and Microsoft Edge.
 * Website's responsive design was tested for all common screen sizes with Developer Tools and [Am I Responsive?](https://ui.dev/amiresponsive)
 
-![responsive snip](/assets/readme.images/responsive2.png)
+![responsive snip](/assets/readme.images/responsive.png)
 
----
----
-## CODE VALIDATION
----
----
+* CODE VALIDATION
 
 THE FIVE TIBETAN RITES TOUR website has been tested with both [W3C Validation Service](https://validator.w3.org/) and [W3C CSS Validation service](https://jigsaw.w3.org/css-validator/)
 
@@ -171,3 +239,13 @@ THE FIVE TIBETAN RITES TOUR website has been tested with both [W3C Validation Se
 
 ![CSS-fix](/assets/readme.images/CSS%20validattion%20fix.png)
 
+---
+## DEPLOYMENT
+---
+
+The website was deployed to GitHub pages, steps are as follows:
+
+1. In the GitHub repository navigate to Settings tab and select.
+2. On the left side navigate to and select Pages.
+3. Find Source then select branch as main and save.
+4. Once done, a link is provided by GitHub where the site was published. 
