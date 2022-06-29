@@ -44,7 +44,15 @@ Upon accessing the website users will find among 3 pages all the necessary infor
         - [EXERCISE AT HOME](#exercise-at-home)
         - [FORM SUBMISSION PAGE](#form-submission-page)
     - [CSS VALIDATION](#css-validation)
+    - [VALIDATOR TESTING](#validator-testing)
+    - [st page](#st-page)
+    - [nd page](#nd-page)
+    - [rd page](#rd-page)
     - [DEPLOYMENT](#deployment)
+        - [GitHub repository link](#github-repository-link)
+    - [CREDITS](#credits)
+        - [CONTENT](#content)
+        - [MEDIA](#media)
 
 <!-- /TOC -->
 
@@ -239,13 +247,60 @@ THE FIVE TIBETAN RITES TOUR website has been tested with both [W3C Validation Se
 
 ![CSS-fix](/assets/readme.images/CSS%20validattion%20fix.png)
 
+## VALIDATOR TESTING
+
+1st page
+---
+![about](/assets/readme.images/lighthouse.png)
+
+2nd page
+---
+![mystery & signup](/assets/readme.images/lighthouse2.png)
+
+3rd page
+---
+![athome](/assets/readme.images/lighthouse3.png)
+
 ---
 ## DEPLOYMENT
 ---
+
+* Deploying the website
 
 The website was deployed to GitHub pages, steps are as follows:
 
 1. In the GitHub repository navigate to Settings tab and select.
 2. On the left side navigate to and select Pages.
 3. Find Source then select branch as main and save.
-4. Once done, a link is provided by GitHub where the site was published. 
+4. Once done, a link is provided by GitHub for the published site along with a confirmation message stating "Your site is published at..".
+
+### GitHub repository [link](https://github.com/vivhubb/body-mind-soul)
+
+* Forking GitHub repository
+
+Forking a repository means to create a copy which allows to freely experiment making changes without affecting the original project.
+
+1. On GitHub navigate to the main page of repository
+2. Find and click fork in the top right corner
+
+* Cloning GitHub repository
+
+Cloning repository creates a local copy on the computer for the remote GitHub repository.
+
+1. On GitHub navigate to the main page of repository
+2. Find and click code in the top right corner
+3. Copy the URL for the repository
+4. Open Git Bash
+5. Change the current working directory to the location of your choice
+6. Type git clone, and then paste copied URL
+7. Press ENTER to create local clone
+
+---
+## CREDITS
+---
+
+### CONTENT
+
+* 
+
+### MEDIA
