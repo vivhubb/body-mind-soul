@@ -1,4 +1,4 @@
-# **BodyMindSoul** (BMS)
+# **BodyMindSoul**
 ## **THE FIVE TIBETAN RITES TOUR**
 
 Welcome to the **[BodyMindSoul](https://vivhubb.github.io/body-mind-soul/)** website.
@@ -19,7 +19,7 @@ Upon accessing the website users will find among 3 pages all the necessary infor
 
 <!-- TOC -->
 
-- [**BodyMindSoul** BMS](#bodymindsoul-bms)
+- [**BodyMindSoul**](#bodymindsoul)
     - [**THE FIVE TIBETAN RITES TOUR**](#the-five-tibetan-rites-tour)
     - [**CONTENTS**](#contents)
     - [**USER EXPERIENCE** UX](#user-experience-ux)
