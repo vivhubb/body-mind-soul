@@ -22,41 +22,45 @@ Upon accessing the website users will find among 3 pages all the necessary infor
 - [**BodyMindSoul**](#bodymindsoul)
     - [**THE FIVE TIBETAN RITES TOUR**](#the-five-tibetan-rites-tour)
     - [**CONTENTS**](#contents)
-    - [**USER EXPERIENCE** UX](#user-experience-ux)
-        - [**USER STORIES**](#user-stories)
-        - [**WIREFRAMES**](#wireframes)
+    - [**USER EXPERIENCE UX**](#user-experience-ux)
+        - [USER STORIES](#user-stories)
+        - [WIREFRAMES](#wireframes)
     - [**SITE STRUCTURE**](#site-structure)
     - [**DESIGN**](#design)
     - [**FEATURES**](#features)
     - [**EXISTING FEATURES**](#existing-features)
-        - [**HEADER & NAVIGATION**](#header--navigation)
-        - [**HERO IMAGE & COVER TEXT**](#hero-image--cover-text)
-        - [**INFORMATION SECTION**](#information-section)
-        - [**ANCIENT MYSTERY STORY**](#ancient-mystery-story)
-        - [**SIGN UP FORM**](#sign-up-form)
-        - [**AT HOME PAGE**](#at-home-page)
-        - [**FOOTER SECTION**](#footer-section)
+        - [HEADER & NAVIGATION](#header--navigation)
+            - [TITLE :](#title-)
+            - [NAVIGATION BAR :](#navigation-bar-)
+        - [HERO IMAGE & COVER TEXT](#hero-image--cover-text)
+        - [INFORMATION SECTION](#information-section)
+        - [ANCIENT MYSTERY STORY](#ancient-mystery-story)
+        - [SIGN UP FORM](#sign-up-form)
+        - [AT HOME PAGE](#at-home-page)
+        - [FOOTER SECTION](#footer-section)
     - [**FUTURE FEATURES**](#future-features)
     - [**TESTING**](#testing)
-    - [**HTML**](#html)
-        - [**ABOUT PAGE**](#about-page)
-        - [**ANCIENT MYSTERY & SIGN UP PAGE**](#ancient-mystery--sign-up-page)
-        - [**EXERCISE AT HOME PAGE**](#exercise-at-home-page)
-        - [**FORM SUBMISSION PAGE**](#form-submission-page)
-    - [**CSS VALIDATION**](#css-validation)
-    - [**LIGHTHOUSE TESTING**](#lighthouse-testing)
+        - [CODE VALIDATION](#code-validation)
+        - [BUGS AND FIXES](#bugs-and-fixes)
+            - [**HTML**](#html)
+            - [**CSS**](#css)
+            - [**LIGHTHOUSE TESTING**](#lighthouse-testing)
+                - [Main page](#main-page)
+                - [Mystery story and Sign up page](#mystery-story-and-sign-up-page)
+                - [Exercise at home page](#exercise-at-home-page)
     - [**DEPLOYMENT**](#deployment)
     - [**CREDITS**](#credits)
-        - [**CONTENT**](#content)
-        - [**MEDIA**](#media)
+        - [CONTENT](#content)
+        - [MEDIA](#media)
     - [**RECOGNITION**](#recognition)
 
 <!-- /TOC -->
 
 ---
-## **USER EXPERIENCE** UX
+## **USER EXPERIENCE UX**
 ---
-### **USER STORIES**
+### USER STORIES
+---
 
 * As a user i want to understand the purpose of the site when accessing
 * As a user i want to be able to navigate through the website easily
@@ -66,7 +70,8 @@ Upon accessing the website users will find among 3 pages all the necessary infor
 * As a user i want to connect with the BMS team on social media
 * As a user i want to be able to contact the BMS support team for additional queries
 
-### **WIREFRAMES**
+### WIREFRAMES
+---
 
 The WIREFRAMES for MindBodySoul were created in [Balsamiq](https://balsamiq.com/), initially for wider viewports, to help visualize the project. They slightly differ from the website's final look due to developements and new ideas during creation.
 
@@ -74,11 +79,21 @@ The WIREFRAMES for MindBodySoul were created in [Balsamiq](https://balsamiq.com/
 ![wireframe2](/assets/readme.images/wireframe2.png)
 ![wireframe3](/assets/readme.images/wireframe3.png)
 
+[Jump to Top](<#contents>)
+
 ---
 ## **SITE STRUCTURE**
 ---
 
-The BodyMindSoul website presenting THE FIVE TIBETAN RITES event has three pages: [ABOUT](https://vivhubb.github.io/body-mind-soul/index.html) which is the default loading page, [ANCIENT MYSTERY & SIGN UP!](https://vivhubb.github.io/body-mind-soul/signup.html) and [EXERCISE AT HOME](https://vivhubb.github.io/body-mind-soul/athome.html).
+The [BodyMindSoul](https://vivhubb.github.io/body-mind-soul/) website presenting THE FIVE TIBETAN RITES TOUR has three pages: 
+
+* [ABOUT](https://vivhubb.github.io/body-mind-soul/index.html) (which is the default loading page), 
+
+* [ANCIENT MYSTERY & SIGN UP!](https://vivhubb.github.io/body-mind-soul/signup.html) (which displays a short story and sign up form) and 
+
+* [EXERCISE AT HOME](https://vivhubb.github.io/body-mind-soul/athome.html) (which presents and explains the exercises).
+
+[Jump to Top](<#contents>)
 
 ---
 ## **DESIGN**
@@ -94,35 +109,46 @@ The colour scheme choice was partly based on the main page's hero image keeping 
 
 ![color palette](/assets/readme.images/colorpalette.png)
 
+[Jump to Top](<#contents>)
+
 ---
 ## **FEATURES**
 ---
 ## **EXISTING FEATURES**
+---
 
-### **HEADER & NAVIGATION**
+### HEADER & NAVIGATION
+---
 
-* **TITLE** 
-    * Placed at the top left corner of the page it displays the name of the event: THE FIVE TIBETAN RITES TOUR which also links to the top of the page.
-    * Clearly states the reason of the website/event.
-* **NAVIGATION BAR** contains three links leading to three separate pages of the website
-    * **ABOUT** page holding all the required information about the trip: location, dates, information, health benefits.
-    * **ANCIENT MYSTERY & SIGN UP** page has two sections
-        * ANCIENT MYSTERY section displays the Ancient Mystery story about the Fountain of Youth as presented by Peter Kelder in his book: Ancient Secret of the Fountain of Youth
-        * SIGN UP section is a form for users who want to join in on the tour.
-    * **EXERCISE AT HOME**: Lists all five yoga exercises with step by step explanations and images
+#### TITLE :
+---
+
+ * Placed at the top left corner of the page it displays the name of the event: THE FIVE TIBETAN RITES TOUR which also links to the top of the page.
+ * Clearly states the reason of the website/event.
+
+#### NAVIGATION BAR :
+---
+Contains three links leading to three separate pages of the website:
+
+ * ABOUT page is holding all the required information about the trip: location, dates, information, health benefits.
+ * ANCIENT MYSTERY & SIGN UP page has two sections
+
+    * *ANCIENT MYSTERY* section displays the Ancient Mystery story about the Fountain of Youth as presented by Peter Kelder in his book: Ancient Secret of the Fountain of Youth
+    * *SIGN UP* section is a form for users who want to join in on the tour.
+ * EXERCISE AT HOME page lists all five yoga exercises with step by step explanations and images
 
 ![navigation bar snip](/assets/readme.images/nav-bar.png)
 
+### HERO IMAGE & COVER TEXT
 ---
-### **HERO IMAGE & COVER TEXT**
 
 * **HERO IMAGE** is for setting the mood and color theme of the website
 * **COVER TEXT** provides with clear information of the purpose of the event
 
 ![hero image and cover text snip](/assets/readme.images/hero.png)
 
+### INFORMATION SECTION
 ---
-### **INFORMATION SECTION**
 
 * **WHAT** section displays descriptive information on what the trip is all about.
 * **WHERE** section provides information on the whereabouts of the trip.
@@ -132,8 +158,8 @@ The colour scheme choice was partly based on the main page's hero image keeping 
 
 ![information snip](/assets/readme.images/information.png)
 
+### ANCIENT MYSTERY STORY
 ---
-### **ANCIENT MYSTERY STORY**
 
 * **ANCIENT MYSTERY** 
     * holds a short description and explanation of why THE FIVE TIBETAN RITES is considered to hold the secret of The Fountain of Youth
@@ -141,8 +167,8 @@ The colour scheme choice was partly based on the main page's hero image keeping 
 
 ![mystery snip](/assets/readme.images/mystery.png)
 
+### SIGN UP FORM
 ---
-### **SIGN UP FORM**
 
 * **SIGN UP**
     * form for collecting data from people who would like to participate in the event
@@ -157,22 +183,21 @@ The colour scheme choice was partly based on the main page's hero image keeping 
 
 ![thank you snip](/assets/readme.images/thankyou.png)
 
+### AT HOME PAGE
 ---
-### **AT HOME PAGE**
 
 * **EXERCISE AT HOME PAGE**
     * opens with a hero image and a quote about the relation between exercise and health
 
 ![at home page cover snip](/assets/readme.images/athome-cover.png)
 
-    * gives an opportunity to people who are unable to attend the journey 
-    but would be interested in exercising at home
+    * gives an opportunity to people who are unable to attend the journey but would be interested in exercising at home
     * lists all 5 tibetan rites in order with step by step explanations and images
 
 ![exercises snip](/assets/readme.images/exercises.png)
 
+### FOOTER SECTION
 ---
-### **FOOTER SECTION**
 
 * **FOOTER**
     * provides users with the opportunity to visit our social media sites and listen or listen to a wide selection of our calming playlists
@@ -181,95 +206,121 @@ The colour scheme choice was partly based on the main page's hero image keeping 
 
 ![footer snip](/assets/readme.images/footer.png)
 
----
 ## **FUTURE FEATURES**
+---
 
 * Organizing tours to different parts of the world
 * Online yoga classes multiple times a week
 * Video guides for: breathing exercises, meditation, sound healing and such.
+
+[Jump to Top](<#contents>)
 
 ---
 ## **TESTING**
 ---
 
 * Website has been tested among the most commonly used types of browsers, such as: Google Chrome, Firefox, Safari and Microsoft Edge.
-* Website's responsive design was tested for all common screen sizes with Developer Tools and [Am I Responsive?](https://ui.dev/amiresponsive)
+* Website's responsive design was tested for all common screen sizes (Iphone SE, Iphone 8 Plus, Iphone XS, Iphone SE 2nd gen, IPad Mini, Laptop, Desktop) with Developer Tools and [Am I Responsive?](https://ui.dev/amiresponsive)
 
 ![responsive snip](/assets/readme.images/responsive.png)
 
-* **CODE VALIDATION**
-
-THE FIVE TIBETAN RITES TOUR website has been tested with both [W3C Validation Service](https://validator.w3.org/) and [W3C CSS Validation service](https://jigsaw.w3.org/css-validator/)
-
-## **HTML**
-
-### **ABOUT PAGE**
-
-* test
-
-![HTML-CHECK1](/assets/readme.images/html-checker.png)
-
-* fix
-
-![HTML-CHECK1-FIX](/assets/readme.images/html-checker-fix.png)
-
-### **ANCIENT MYSTERY & SIGN UP PAGE**
-
-* test
-
-![HTML-CHECK2](/assets/readme.images/html-checker2.png)
-
-* fix
-
-![HTML-CHECK2-FIX](/assets/readme.images/html-checker2-fix.png)
-
-### **EXERCISE AT HOME PAGE**
-
-* test
-
-![HTML-CHECK3](/assets/readme.images/html-checker3.png)
-
-### **FORM SUBMISSION PAGE**
-
-* test
-
-![HTML-CHECK4](/assets/readme.images/html-checker4.png)
-
-## **CSS VALIDATION**
-
-* test
-
-![CSS-CHECK](/assets/readme.images/CSS%20validation%20errors.png)
-
-* fix
-
-![CSS-fix](/assets/readme.images/CSS%20validattion%20fix.png)
-
-## **LIGHTHOUSE TESTING**
-
-* Main page
+### CODE VALIDATION
 ---
+
+    THE FIVE TIBETAN RITES TOUR website has been tested with both [W3C Validation Service](https://validator.w3.org/) and [W3C CSS Validation service](https://jigsaw.w3.org/css-validator/)
+
+### BUGS AND FIXES
+
+---
+#### **HTML**
+---
+
+* ABOUT PAGE
+
+    * test
+
+    ![HTML-CHECK1](/assets/readme.images/html-checker.png)
+
+    * fix
+
+    ![HTML-CHECK1-FIX](/assets/readme.images/html-checker-fix.png)
+
+    Since a heading was not needed in this section, as advised by the validation service, the 'section' element was replaced with a 'div' element instead.
+
+* ANCIENT MYSTERY & SIGN UP PAGE
+
+    * test
+
+    ![HTML-CHECK2](/assets/readme.images/html-checker2.png)
+
+    * fix
+
+    ![HTML-CHECK2-FIX](/assets/readme.images/html-checker2-fix.png)
+
+    This was an oversight which occured while deciding between having separate labels for First Name and Last Name or having just one label for both entries. Label 'for' attribute was amended to match the first text input 'id'.
+
+* EXERCISE AT HOME PAGE
+
+    * test
+
+    ![HTML-CHECK3](/assets/readme.images/html-checker3.png)
+
+* FORM SUBMISSION PAGE
+
+    * test
+
+    ![HTML-CHECK4](/assets/readme.images/html-checker4.png)
+
+---
+#### **CSS**
+---
+
+* **CSS file**
+
+    * test 01
+
+    ![CSS-CHECK01](/assets/readme.images/CSS%20validation%20errors.1.png)
+
+    * test 02
+
+    ![CSS-CHECK02](/assets/readme.images/CSS%20validation%20errors2.png)
+
+    * fix
+
+    ![CSS-fix](/assets/readme.images/CSS%20validattion%20fix.png)
+
+    The first phase of the validation highlighted that i have used the 'size' property that does not exist and advised for the 'resize' property to be used.
+        Once I made the suggested changes and ran the code in the CSS validator again I saw that the issue has not been fixed and I have instantly realized that the property I initially meant to use there was the 'font-size' property.
+
+---
+#### **LIGHTHOUSE TESTING**
+---
+
+##### Main page
+
 ![about](/assets/readme.images/lighthouse.png)
 
 * mobile test
 
 ![about mobile](/assets/readme.images/lighthouse-mobile.png)
 
-* Mystery story and Sign up page
----
+##### Mystery story and Sign up page
+
 ![mystery & signup](/assets/readme.images/lighthouse2.png)
 
 * mobile test
 
 ![mystery & signup mobile](/assets/readme.images/lighthouse-mobile2.png)
 
-* Exercise at home page
----
+##### Exercise at home page
+
 ![athome](/assets/readme.images/lighthouse3.png)
 
 * mobile test
 
 ![about-mobile](/assets/readme.images/lighthouse-mobile3.png)
+
+[Jump to Top](<#contents>)
 
 ---
 ## **DEPLOYMENT**
@@ -284,7 +335,7 @@ The website was deployed to GitHub pages, steps are as follows:
 3. Find Source then select branch as main and save.
 4. Once done, a link is provided by GitHub for the published site along with a confirmation message stating "Your site is published at..".
 
-**GitHub repository** [link](https://github.com/vivhubb/body-mind-soul)
+![deploying the website](/assets/readme.images/deploy.png)
 
 * **Forking GitHub repository**
 
@@ -292,6 +343,8 @@ Forking a repository means to create a copy which allows to freely experiment in
 
 1. On **GitHub** navigate to the **main page** of repository
 2. **Find** and **click fork** in the top right corner
+
+![fork repository](/assets/readme.images/fork.png)
 
 * **Cloning GitHub repository**
 
@@ -305,11 +358,15 @@ Cloning repository creates a local copy on the computer for the remote GitHub re
 6. Type *git clone*, and then **paste copied URL**
 7. Press **ENTER** to create local clone
 
+![clone repository](/assets/readme.images/clone.png)
+
+[Jump to Top](<#contents>)
+
 ---
 ## **CREDITS**
 ---
 
-### **CONTENT**
+### CONTENT
 
 * Font implemented from [Google Fonts](https://fonts.google.com/)
 * Applied icons were taken from [Font Awesome](https://fontawesome.com/search?s=solid%2Cbrands)
@@ -321,10 +378,12 @@ Cloning repository creates a local copy on the computer for the remote GitHub re
 * Inspiration for form thank you message came from [Form Builder](https://www.123formbuilder.com/blog/5-thank-you-messages-to-use-on-your-web-forms/)
 * Idea to split image on Exercises at home page came from [Youtube video](https://www.youtube.com/watch?v=J6MsssV-HOs)
 
-### **MEDIA**
+### MEDIA
 
 * The images were taken from [Pexels](https://www.pexels.com/)
 * The Five Tibetan Rites explanatory images came from [Peter Kelder's book "Ancient Secret of the Fountain of Youth"](http://www.lib.ru/URIKOVA/KELDER/Ancient_Secret_of_the_Fountain_of_Youth-Peter_Kelder.pdf)
+
+[Jump to Top](<#contents>)
 
 ---
 ## **RECOGNITION**
@@ -333,3 +392,5 @@ Cloning repository creates a local copy on the computer for the remote GitHub re
 The website was created for [Code Institute's](https://codeinstitute.net/full-stack-software-development-diploma/?utm_term=code%20institute&utm_campaign=CI+-+UK+-+Search+-+Brand&utm_source=adwords&utm_medium=ppc&hsa_acc=8983321581&hsa_cam=1578649861&hsa_grp=62188641240&hsa_ad=581730217381&hsa_src=g&hsa_tgt=kwd-319867646331&hsa_kw=code%20institute&hsa_mt=e&hsa_net=adwords&hsa_ver=3&gclid=CjwKCAjwzeqVBhAoEiwAOrEmzYp2OUJbabwQKMiOWW04rrgU4PPznGJolb6LqO9yzgr3C7YckLDtkhoCOcsQAvD_BwE) Full Stack Software Development Diploma Course as the first Milestone Project. 
 
 Therefore, I would like to take this opportunity to show my appreciation and thanks to my mentor **Precious Ijege** and the whole of Code Institute for all the help and support received throughout the creation of this project.
+
+[Jump to Top](<#contents>)
